@@ -15,11 +15,12 @@
       {%- assign href = nil %}{% if i.doi %}{% assign href = i.doi | prepend: "https://doi.org/" %}{% elsif i.url %}{% unless i.url contains "TODO" %}{% assign href = i.url %}{% endunless %}{% endif %}
       <li><span class="year">{{ i.citations }}<span class="vh"> {{ t.cited_by[lang] }}</span></span><div><cite>{% if href %}<a href="{{ href }}">{{ i.title }}</a>{% else %}{{ i.title }}{% endif %}</cite>
       <span class="by">{{ i.authors }}</span><span class="by"><i>{{ i.venue }}</i></span><span class="by">{{ i.year }}</span>
-      <span class="selos"><span class="selo">{{ t.kinds[i.type][lang] }}</span>{% for j in site.data.journals %}{% if j.venue == i.venue %}{% for r in j.ratings %}{% if r.value and r.system %}{% unless r.value contains "TODO" or r.system contains "TODO" %}<span class="selo">{{ r.system }} {{ r.value }}{% assign ry = r.year | append: "" %}{% if ry != "" %}{% unless ry contains "TODO" %} ({{ ry }}){% endunless %}{% endif %}</span>{% endunless %}{% endif %}{% endfor %}{% endif %}{% endfor %}</span></div></li>
+      <span class="selos"><span class="selo">{{ t.kinds[i.type][lang] }}</span>{% for j in site.data.journals %}{% if j.venue == i.venue %}{% for r in j.ratings %}{% assign rl = r.lang | default: lang %}{% if r.value and r.system and rl == lang %}{% unless r.value contains "TODO" or r.system contains "TODO" %}<span class="selo">{{ r.system }} {{ r.value }}{% assign ry = r.year | append: "" %}{% if ry != "" %}{% unless ry contains "TODO" %} ({{ ry }}){% endunless %}{% endif %}</span>{% endunless %}{% endif %}{% endfor %}{% endif %}{% endfor %}</span></div></li>
     {%- endfor %}
     </ol>
     <p class="fonte">{{ t.scholar_note[lang] }} {% include data.html d=mc.retrieved %}.</p>
     {%- endif %}
+    {% include classificacao.html %}
     {%- capture full %}{% for l in links %}{% if l.id == "scholar" or l.id == "orcid" or l.id == "lattes" %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endif %}{% endfor %}{% endcapture %}
     {%- if full != "" %}<div class="inline"><span>{{ t.pubs_more[lang] }}</span><ul class="links">{{ full }}</ul></div>{% endif %}
   </div>

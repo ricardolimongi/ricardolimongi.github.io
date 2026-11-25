@@ -1,0 +1,2 @@
+{%- capture rd %}{% include data.html d=t.ratings_date %}{% endcapture -%}
+<div class="fonte">{{ t.ratings_note[lang] | append: " " | append: rd | append: "." | markdownify }}</div>

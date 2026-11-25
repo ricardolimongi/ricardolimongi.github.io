@@ -1,273 +1,276 @@
-# Classificação por periódico (Qualis, SJR e ABS). ISSN do Crossref.
-# Qualis: só a área Administração Pública e de Empresas, Ciências Contábeis e Turismo. SJR: melhor quartil. ABS: Academic Journal Guide (nota 1 a 4*).
-# value TODO não aparece no site.
+# Classificação por periódico (Qualis, SJR e ABS). ISSN do Crossref e do OpenAlex.
+# Consulta em 25/11/2026 (data exibida no site: i18n.yml, ratings_date).
+# Qualis: Plataforma Sucupira/CAPES, quadriênio 2021-2024, só a área Administração Pública e de Empresas, Ciências Contábeis e Turismo.
+# lang: pt = só aparece na versão em português.
+# SJR: SCImago, edição 2025, melhor quartil. ABS: Academic Journal Guide (nota 1 a 4*), via Periódicos-ADM (atualizado em 20/06/2026).
+# A nota CAPES 2025-2028 (MB, B, R, F, I) fica de fora por decisão do autor. value TODO não aparece no site.
 - venue: "Administração: Ensino e Pesquisa (RAEP)"
   issn: ["2177-6083", "2358-0917"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A3", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Applied Sciences-Basel"
   issn: ["2076-3417"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "C", year: "2021-2024" }
+    - { system: SJR, value: "Q2", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Brazilian Administration Review (BAR)"
   issn: ["1807-7692"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q3", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Contextus: Revista Contemporânea de Economia e Gestão"
   issn: ["1678-2089", "2178-9258"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A4", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Educação, Escola & Sociedade"
   issn: ["1983-2540", "2594-4002"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "B1", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Food Quality and Preference"
   issn: ["0950-3293"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Future Studies Research Journal"
   issn: ["2175-5825"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A4", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "GEOgraphia (UFF)"
   issn: ["1517-7793", "2674-8126"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "GVcasos: Revista Brasileira de Casos de Ensino em Administração"
   issn: ["2179-135X"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "B3", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Global Business Review"
   issn: ["0972-1509", "0973-0664"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q2", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "International Journal of Emerging Markets"
   issn: ["1746-8809"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "International Journal of Entrepreneurship and Small Business"
   issn: ["1476-1297", "1741-8054"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q3", year: "2025" }
+    - { system: ABS, value: "2", year: TODO }
 - venue: "International Journal of Innovation and Learning"
   issn: ["1471-8197", "1741-8089"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A3", year: "2021-2024" }
+    - { system: SJR, value: "Q3", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "International Journal of Qualitative Methods"
   issn: ["1609-4069"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Internext"
   issn: ["1980-4865"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A4", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Journal of Consumer Affairs"
   issn: ["0022-0078", "1745-6606"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "Journal of Marketing Analytics"
   issn: ["2050-3318", "2050-3326"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "Journal of Marketing Management"
   issn: ["0267-257X", "1472-1376"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
+    - { system: ABS, value: "2", year: TODO }
 - venue: "Journal of Modelling in Management"
   issn: ["1746-5664"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q2", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "Kybernetes"
   issn: ["0368-492X", "1758-7883"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "Online Information Review"
   issn: ["1468-4527"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "Pretexto"
-  issn: []
+  issn: ["1517-672X", "1984-6983"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A4", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Psychology and Marketing"
   issn: ["0742-6046", "1520-6793"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
+    - { system: ABS, value: "3", year: TODO }
 - venue: "RAUSP Management Journal"
   issn: ["2531-0488"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q2", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "REGE: Revista de Gestão USP"
   issn: ["1809-2276", "2177-8736"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q2", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "REGEPE"
-  issn: ["2316-2058", "2965-1506"]
+  issn: ["2965-1506", "2316-2058"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q4", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "REMark: Revista Brasileira de Marketing"
   issn: ["2177-5184"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A4", year: "2021-2024" }
+    - { system: SJR, value: "Q4", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "RIMAR"
   issn: ["1676-9783"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "B2", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista Alcance (Eletrônica)"
   issn: ["1983-716X"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "B1", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista Brasileira de Cancerologia"
   issn: ["0034-7116", "2176-9745"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "B1", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista Brasileira de Enfermagem"
-  issn: []
+  issn: ["0034-7167", "1984-0446"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q2", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista Brasileira de Gestão de Negócios (RBGN)"
   issn: ["1806-4892", "1983-0807"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q3", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "Revista Cogitare Enfermagem"
   issn: ["1414-8536", "2176-9133"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A4", year: "2021-2024" }
+    - { system: SJR, value: "Q4", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista Eletrônica Gestão e Sociedade"
   issn: ["1980-5756"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "B1", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista Gestão Organizacional (RGO)"
   issn: ["1806-6720", "1983-6635"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A3", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista Ibero-Americana de Estratégia"
   issn: ["2176-0756"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A4", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista Latino-Americana de Enfermagem"
   issn: ["1518-8345"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q2", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista da Micro e Pequena Empresa (FACCAMP)"
-  issn: []
+  issn: ["1982-2537"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A4", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista de Administração Contemporânea (RAC)"
   issn: ["1415-6555", "1982-7849"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q3", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "Revista de Administração Mackenzie (RAM)"
   issn: ["1678-6971"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q3", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista de Administração da UEG"
-  issn: []
+  issn: ["2236-1197"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "B3", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Revista de Administração de Empresas (RAE)"
   issn: ["0034-7590", "2178-938X"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
-    - { system: ABS, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
+    - { system: SJR, value: "Q3", year: "2025" }
+    - { system: ABS, value: "1", year: TODO }
 - venue: "Revista de Estudos e Pesquisas sobre Ensino Tecnológico"
   issn: ["2446-774X"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A2", year: "2021-2024" }
     - { system: SJR, value: TODO, year: TODO }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Social Sciences & Humanities Open"
   issn: ["2590-2911"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A1", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }
 - venue: "Sustainability"
   issn: ["2071-1050"]
   ratings:
-    - { system: Qualis, value: TODO, year: TODO }
-    - { system: SJR, value: TODO, year: TODO }
+    - { system: Qualis, lang: pt, value: "A3", year: "2021-2024" }
+    - { system: SJR, value: "Q1", year: "2025" }
     - { system: ABS, value: TODO, year: TODO }

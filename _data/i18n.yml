@@ -32,6 +32,10 @@ footer: { pt: "Todos os direitos reservados.", en: "All rights reserved." }
 recent: { pt: "Mais recentes", en: "Most recent" }
 most_cited: { pt: "Mais citadas", en: "Most cited" }
 scholar_note: { pt: "Citações: Google Scholar, consulta em", en: "Citations: Google Scholar, retrieved on" }
+ratings_note:
+  pt: "Classificação dos periódicos: Qualis 2021-2024 na área de Administração ([CAPES](https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf)), melhor quartil no SJR 2025 ([SCImago](https://www.scimagojr.com/)) e ABS, Academic Journal Guide (via [Periódicos-ADM](https://periodicos-adm.com/)). Refere-se à edição indicada, não ao ano do artigo. Consulta em"
+  en: "Journal ratings: best SJR 2025 quartile ([SCImago](https://www.scimagojr.com/)) and ABS, Academic Journal Guide (via [Periódicos-ADM](https://periodicos-adm.com/)). Ratings refer to the edition shown, not to the article's year. Retrieved on"
+ratings_date: 2026-11-25
 kinds:
   article: { pt: "Artigo", en: "Article" }
   book: { pt: "Livro", en: "Book" }

@@ -27,6 +27,7 @@
         {%- endif %}
   {%- endfor %}
   {%- if cdate %}<p class="fonte">{{ t.scholar_note[lang] }} {% include data.html d=cdate %}.</p>{% endif %}
+  {% include classificacao.html %}
   <p class="fim"><a href="{{ raiz | relative_url }}#publicacoes">{{ t.back_pubs[lang] }}</a></p>
   </div>
 </article>
