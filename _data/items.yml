@@ -1,0 +1,54 @@
+# Itens com data ou links em TODO não aparecem no site.
+- id: guia-portaria-3004
+  date: TODO
+  type: material
+  title:
+    pt: "Portaria CNPq 3.004/2026: guia prático e modelo de declaração"
+    en: "CNPq Ordinance No. 3,004/2026: practical guide and AI-use statement template"
+  summary:
+    pt: "Guia prático sobre a Portaria CNPq nº 3.004/2026, com um modelo de declaração de uso de IA na pesquisa."
+    en: "A practical guide to CNPq Ordinance No. 3,004/2026, with an AI-use statement template for research."
+  note:
+    pt: "Este material não substitui a orientação oficial do CNPq."
+    en: "This resource does not replace official CNPq guidance."
+  links:
+    - label: { pt: "Abrir o guia", en: "Open the guide" }
+      url: TODO
+    - label: { pt: "Fonte oficial", en: "Official source" }
+      url: TODO
+  content_language: pt
+- id: caderno-uso-ia
+  date: TODO
+  type: material
+  title:
+    pt: "Caderno de laboratório: uso de IA"
+    en: "Lab notebook: AI use"
+  summary:
+    pt: "Planilha para registrar data, ferramenta, etapa, finalidade e conferência de cada uso de IA. A frase da declaração é montada automaticamente."
+    en: "A spreadsheet to log the date, tool, stage, purpose and checking of each AI use. It drafts the statement sentence automatically."
+  links:
+    - label: { pt: "Baixar planilha (.xlsx)", en: "Download spreadsheet (.xlsx)" }
+      url: /assets/files/caderno-uso-ia.xlsx
+  content_language: pt
+- id: usou-ia-na-pesquisa
+  date: TODO
+  type: video
+  title:
+    pt: "Usou IA na pesquisa? O CNPq agora exige que você declare"
+    en: "Used AI in your research? CNPq now requires you to declare it"
+  summary: { pt: TODO, en: TODO }
+  links:
+    - label: { pt: "Assistir no YouTube", en: "Watch on YouTube" }
+      url: TODO
+  content_language: pt
+- id: portaria-em-60-segundos
+  date: TODO
+  type: video
+  title:
+    pt: "A portaria em 60 segundos"
+    en: "The ordinance in 60 seconds"
+  summary: { pt: TODO, en: TODO }
+  links:
+    - label: { pt: "Assistir no Instagram", en: "Watch on Instagram" }
+      url: TODO
+  content_language: pt

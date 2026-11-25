@@ -1,0 +1,16 @@
+<section id="inicio" class="hero">
+  {% include cena.html nome="inicio" %}
+  {%- if photo %}
+  <img class="retrato" src="{{ photo | relative_url }}" alt="{{ t.photo_alt[lang] }}" width="900" height="1130">
+  {%- endif %}
+  <div class="wrap">
+    <h1>{% assign partes = p.name | split: " " %}{% for n in partes %}<span>{{ n }}</span> {% endfor %}</h1>
+    <p class="tagline">{{ p.tagline[lang] }}</p>
+    <p class="role">{{ p.role[lang] }}</p>
+    <p class="btns">
+      {%- if nav contains "materiais" %}<a class="btn main" href="#materiais">{{ t.sections.materiais[lang] }}</a>{% endif %}
+      {%- if nav contains "videos" %}<a class="btn" href="#videos">{{ t.sections.videos[lang] }}</a>{% endif %}
+      {%- if nav contains "contato" %}<a class="btn" href="#contato">{{ t.sections.contato[lang] }}</a>{% endif %}
+    </p>
+  </div>
+</section>

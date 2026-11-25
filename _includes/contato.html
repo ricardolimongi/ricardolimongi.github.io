@@ -1,0 +1,14 @@
+<section id="contato" class="sec">
+  {% include cena.html nome="contato" %}
+  <div class="wrap">
+    <h2>{{ t.sections.contato[lang] }}</h2>
+    {%- if email %}<p>{{ t.email[lang] }}: <a href="mailto:{{ email }}">{{ email }}</a></p>{% endif %}
+    {%- if video %}
+    <a class="video" href="https://www.youtube.com/watch?v={{ video.youtube_id }}" data-video="{{ video.youtube_id }}" aria-label="{{ t.play[lang] }}: {{ video.title[lang] | escape }}">
+      <img src="https://i.ytimg.com/vi/{{ video.youtube_id }}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+      <span class="play" aria-hidden="true"></span><span class="video-t">{{ video.title[lang] }}</span>
+    </a>
+    {%- endif %}
+    <ul class="chips">{% for l in links %}<li><a class="btn{% if l.id == 'youtube' %} main{% endif %}" href="{{ l.url }}" rel="me">{{ l.label }}</a></li>{% endfor %}</ul>
+  </div>
+</section>

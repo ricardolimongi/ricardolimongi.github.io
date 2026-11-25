@@ -1,0 +1,10 @@
+{%- assign e = include.e -%}
+<li id="{{ e.id }}" data-fim="{{ e.end_date | default: e.date | date: '%Y-%m-%d' }}">
+  <time datetime="{{ e.date | date: '%Y-%m-%d' }}">{% include data.html d=e.date %}{% if e.end_date %} <span>{% if lang == "pt" %}a{% else %}to{% endif %}</span> {% include data.html d=e.end_date %}{% endif %}</time>
+  <div>
+    <h4{% if lang == "en" and e.name.en == e.name.pt %} lang="pt-BR"{% endif %}>{{ e.name[lang] }}</h4>
+    {%- capture info %}{% if e.time[lang] %}{% unless e.time[lang] contains "TODO" %}<span>{{ e.time[lang] }}{% if e.timezone[lang] %} ({{ e.timezone[lang] }}){% endif %}</span>{% endunless %}{% endif %}{% if e.place[lang] %}{% unless e.place[lang] contains "TODO" %}<span>{{ e.place[lang] }}</span>{% endunless %}{% endif %}{% endcapture %}
+    {%- if info != "" %}<p>{{ info }}</p>{% endif %}
+    {%- if e.url %}{% unless e.url contains "TODO" %}<p><a href="{{ e.url }}">{{ t.event_link[lang] }}</a></p>{% endunless %}{% endif %}
+  </div>
+</li>

@@ -1,0 +1,7 @@
+<section id="pesquisa" class="sec">
+  {% include cena.html nome="pesquisa" %}
+  <div class="wrap">
+    <h2>{{ t.sections.pesquisa[lang] }}</h2>
+    <div class="lines">{% for r in lines %}<div><h3>{{ r.title[lang] }}</h3><p>{{ r.text[lang] }}</p></div>{% endfor %}</div>
+  </div>
+</section>

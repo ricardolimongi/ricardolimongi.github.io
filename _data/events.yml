@@ -1,0 +1,21 @@
+# Agenda e histórico. Datas passadas vão sozinhas para o histórico.
+# Campos: id, name (pt/en), date, end_date (opcional), time (pt/en, opcional), timezone (opcional, pt/en),
+# place (pt/en, opcional), url (opcional). Sem data definida o evento não aparece.
+- id: scispace-proposta-de-pesquisa
+  name:
+    pt: "Da ideia ao projeto aprovado: escreva sua proposta de pesquisa passo a passo com o Agente SciSpace"
+    en: "Da ideia ao projeto aprovado: escreva sua proposta de pesquisa passo a passo com o Agente SciSpace"
+  date: 2026-11-25
+  time: { pt: "18h30", en: "6:30 pm" }
+  timezone: { pt: "horário de Brasília", en: "Brasília time, UTC-3" }
+  place: { pt: "On-line, por videoconferência", en: "Online, by video conference" }
+  url: "https://luma.com/scispace-90lu"
+- id: uems-workshop-pesquisa-ia
+  name:
+    pt: "Workshop Pesquisa Científica e o Uso da Inteligência Artificial"
+    en: "Workshop Pesquisa Científica e o Uso da Inteligência Artificial"
+  date: 2026-11-27
+  time: { pt: "13h30 às 17h30", en: "1:30 pm to 5:30 pm" }
+  timezone: { pt: "horário local", en: "local time" }
+  place: { pt: "Sala de teleconferência do Bloco D, UEMS, Dourados (MS)", en: "Teleconference room, Block D, UEMS, Dourados, Brazil" }
+  url: "https://www.uems.br/noticias/detalhes/UEMS-Dourados-Mestrado-Profissional-em-Ensino-em-Saude-promove-workshop-sobre-o-uso-de-IA-na-pesquisa"

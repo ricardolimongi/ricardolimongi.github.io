@@ -1,0 +1,16 @@
+- title: { pt: "IA e comportamento do consumidor", en: "AI and consumer behavior" }
+  text:
+    pt: "Como consumidores adotam novas tecnologias e reagem a agentes de IA, chatbots e preços definidos por algoritmos, e o que isso significa para empresas."
+    en: "How consumers adopt new technologies and respond to AI agents, chatbots and algorithmic pricing, and what this means for firms."
+- title: { pt: "Inteligência híbrida e decisão", en: "Hybrid intelligence and decision-making" }
+  text:
+    pt: "Como pessoas e sistemas de IA dividem decisões, e o que torna essa colaboração melhor que cada parte sozinha."
+    en: "How people and AI systems share decisions, and what makes that collaboration outperform either side alone."
+- title: { pt: "IA nos métodos de pesquisa", en: "AI in research methods" }
+  text:
+    pt: "Amostras sintéticas, revisões de literatura apoiadas por IA e protocolos para usar IA generativa com rigor."
+    en: "Silicon samples, AI-assisted literature reviews and protocols for using generative AI rigorously."
+- title: { pt: "Ética, integridade e comunicação científica", en: "Ethics, integrity and scholarly communication" }
+  text:
+    pt: "Implicações cognitivas e éticas da IA, autoria, transparência e políticas editoriais para o uso de IA na ciência."
+    en: "Cognitive and ethical implications of AI, authorship, transparency and editorial policy for AI use in science."

@@ -1,0 +1,22 @@
+title: Ricardo Limongi
+url: "https://ricardolimongi.github.io"
+baseurl: ""
+timezone: America/Sao_Paulo
+plugins:
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - CLAUDE.md
+  - SITE_SPEC.md
+  - CONTEUDO_INICIAL.md
+  - PROMPTS_SITE.md
+  - README.md
+  - lattes.pdf
+  - foto.png
+  - caderno_laboratorio.xlsx
+  - "*.csv"
+  - "*.xls"
+  - PALESTRAS_PARA_ESCOLHER.md
+theme: null

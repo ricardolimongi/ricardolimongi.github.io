@@ -1,0 +1,17 @@
+<section id="sobre" class="sec">
+  {% include cena.html nome="sobre" %}
+  <div class="wrap">
+    <h2>{{ t.sections.sobre[lang] }}</h2>
+    <p class="lead">{{ p.bio[lang] }}</p>
+    {%- capture nums %}{% for n in p.numbers %}{% unless n.value[lang] contains "TODO" or n.label[lang] contains "TODO" %}<li><strong>{{ n.value[lang] }}</strong><span>{{ n.label[lang] }}</span></li>{% endunless %}{% endfor %}{% endcapture %}
+    {%- if nums != "" %}<ul class="nums">{{ nums }}</ul>{% endif %}
+    <div class="cols">
+      {%- capture rl %}{% for r in p.roles %}{% unless r.title[lang] contains "TODO" %}<li><span>{{ r.title[lang] }}</span>{% if r.period %}<time>{{ r.period }}</time>{% endif %}</li>{% endunless %}{% endfor %}{% endcapture %}
+      {%- if rl != "" %}<div><h3>{{ t.roles[lang] }}</h3><ul class="plain">{{ rl }}</ul></div>{% endif %}
+      {%- capture aw %}{% for a in p.awards limit:5 %}{% unless a.title[lang] contains "TODO" %}<li><span>{{ a.title[lang] }}</span><time>{{ a.year }}</time></li>{% endunless %}{% endfor %}{% endcapture %}
+      {%- if aw != "" %}<div><h3>{{ t.awards[lang] }}</h3><ul class="plain">{{ aw }}</ul></div>{% endif %}
+    </div>
+    {%- if p.international[lang] %}{% unless p.international[lang] contains "TODO" %}<h3>{{ t.international[lang] }}</h3><p>{{ p.international[lang] }}</p>{% endunless %}{% endif %}
+    {%- for l in links %}{% if l.id == "lattes" %}<p><a href="{{ l.url }}">{{ t.lattes_link[lang] }}</a></p>{% endif %}{% endfor %}
+  </div>
+</section>

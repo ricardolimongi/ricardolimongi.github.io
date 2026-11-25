@@ -1,0 +1,9 @@
+<section id="hilab" class="sec">
+  {% include cena.html nome="hilab" %}
+  <div class="wrap">
+    <h2>{{ t.sections.hilab[lang] }}</h2>
+    <p class="sub">{{ lab.name }}</p>
+    <p class="lead">{{ lab.text[lang] }}</p>
+    {%- if lab.url %}{% unless lab.url contains "TODO" %}<p><a class="btn" href="{{ lab.url }}">{{ t.lab_link[lang] }}</a></p>{% endunless %}{% endif %}
+  </div>
+</section>

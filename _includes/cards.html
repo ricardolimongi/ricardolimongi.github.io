@@ -1,0 +1,6 @@
+<div class="cards">{% for i in include.list limit:6 %}{% include card.html item=i %}{% endfor %}</div>
+{%- if include.list.size > 6 %}
+<details class="more"><summary>{{ t.see_all[lang] }} ({{ include.list.size }})</summary>
+<div class="cards">{% for i in include.list offset:6 %}{% include card.html item=i %}{% endfor %}</div>
+</details>
+{%- endif %}

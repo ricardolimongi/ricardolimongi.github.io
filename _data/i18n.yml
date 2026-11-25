@@ -1,0 +1,54 @@
+# Textos fixos da interface
+locale: { pt: "pt-BR", en: "en" }
+og_locale: { pt: "pt_BR", en: "en_US" }
+skip: { pt: "Pular para o conteúdo", en: "Skip to content" }
+menu: { pt: "Menu", en: "Menu" }
+main_nav: { pt: "Navegação principal", en: "Main navigation" }
+language: { pt: "Idioma", en: "Language" }
+contrast: { pt: "Alto contraste", en: "High contrast" }
+photo_alt: { pt: "Retrato de Ricardo Limongi", en: "Portrait of Ricardo Limongi" }
+see_all: { pt: "Ver todos", en: "See all" }
+in_portuguese: { pt: "Em português", en: "In Portuguese" }
+in_english: { pt: "Em inglês", en: "In English" }
+roles: { pt: "Cargos e atuações", en: "Positions and service" }
+awards: { pt: "Destaques", en: "Highlights" }
+international: { pt: "Experiência internacional", en: "International experience" }
+lattes_link: { pt: "Ver o currículo Lattes", en: "View the Lattes CV (in Portuguese)" }
+lab_link: { pt: "Visitar o site do HI-Lab", en: "Visit the HI-Lab website" }
+pubs_more: { pt: "Lista completa:", en: "Full list:" }
+email: { pt: "E-mail", en: "Email" }
+footer: { pt: "Todos os direitos reservados.", en: "All rights reserved." }
+recent: { pt: "Mais recentes", en: "Most recent" }
+most_cited: { pt: "Mais citadas", en: "Most cited" }
+scholar_note: { pt: "Citações: Google Scholar, consulta em", en: "Citations: Google Scholar, retrieved on" }
+kinds:
+  article: { pt: "Artigo", en: "Article" }
+  book: { pt: "Livro", en: "Book" }
+  chapter: { pt: "Capítulo", en: "Chapter" }
+  proceedings: { pt: "Trabalho em anais", en: "Conference paper" }
+  report: { pt: "Relatório", en: "Report" }
+cited_by: { pt: "Citações", en: "Citations" }
+citations_note: { pt: "Citações: OpenAlex, consulta em", en: "Citations: OpenAlex, retrieved on" }
+upcoming: { pt: "Próximos", en: "Upcoming" }
+history: { pt: "Histórico", en: "Past events" }
+event_link: { pt: "Página do evento", en: "Event page" }
+play: { pt: "Assistir ao vídeo", en: "Play video" }
+sections:
+  eventos: { pt: "Eventos", en: "Events" }
+  inicio: { pt: "Início", en: "Home" }
+  sobre: { pt: "Sobre", en: "About" }
+  pesquisa: { pt: "Pesquisa", en: "Research" }
+  hilab: { pt: "HI-Lab", en: "HI-Lab" }
+  materiais: { pt: "Materiais", en: "Resources" }
+  videos: { pt: "Vídeos", en: "Videos" }
+  palestras: { pt: "Palestras", en: "Talks" }
+  publicacoes: { pt: "Publicações", en: "Publications" }
+  contato: { pt: "Contato", en: "Contact" }
+types:
+  material: { pt: "Material", en: "Resource" }
+  video: { pt: "Vídeo", en: "Video" }
+  palestra: { pt: "Palestra", en: "Talk" }
+  noticia: { pt: "Notícia", en: "News" }
+months:
+  pt: [jan., fev., mar., abr., maio, jun., jul., ago., set., out., nov., dez.]
+  en: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]

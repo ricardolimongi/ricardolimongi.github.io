@@ -1,0 +1,73 @@
+# Produções mais citadas, todos os tipos. Fonte: perfil no Google Scholar (consulta em retrieved). Ordem do arquivo = ordem no site.
+retrieved: 2026-11-24
+items:
+  - type: article
+    title: "Does social media matter for post typology? Impact of post content on Facebook and Instagram metrics"
+    authors: "Limongi, R.; Oliveira, D. S.; Almeida, M. I. S."
+    venue: "Online Information Review"
+    year: 2016
+    citations: 372
+    doi: "10.1108/oir-06-2015-0176"
+  - type: article
+    title: "A story to sell: The influence of storytelling on consumers' purchasing behavior"
+    authors: "Oliveira Júnior, J. R.; Limongi, R.; Lim, W. M.; Eastman, J. K.; Kumar, S."
+    venue: "Psychology and Marketing"
+    year: 2022
+    citations: 248
+    doi: "10.1002/mar.21758"
+  - type: article
+    title: "Quem Lidera sua Opinião? Influência dos Formadores de Opinião Digitais no Engajamento"
+    authors: "de Almeida, M. I. S.; Limongi, R.; Camilo Junior, C. G.; Godoy, R. M. F."
+    venue: "Revista de Administração Contemporânea (RAC)"
+    year: 2018
+    citations: 199
+    doi: "10.1590/1982-7849rac2018170028"
+  - type: book
+    title: "Diretrizes para o uso ético e responsável da Inteligência Artificial Generativa: um guia prático para pesquisadores"
+    authors: "Sampaio, R. C.; Sabbatini, M.; Limongi, R."
+    venue: "Intercom"
+    year: 2024
+    citations: 149
+    url: TODO
+  - type: article
+    title: "Impact of Financial Inclusion, Globalization, Renewable Energy, ICT, and Economic Growth on CO2 Emission in OBOR Countries"
+    authors: "Tsimisaraka, R. S. M.; Xiang, L.; Andrianarivo, A. R. N. A.; Josoa, E. Z.; Khan, N.; Hanif, M. S.; Khurshid, A.; Limongi, R."
+    venue: "Sustainability"
+    year: 2023
+    citations: 108
+    doi: "10.3390/su15086534"
+  - type: article
+    title: "The use of artificial intelligence in scientific research with integrity and ethics"
+    authors: "Limongi, R."
+    venue: "Future Studies Research Journal"
+    year: 2024
+    citations: 103
+    doi: "10.24023/futurejournal/2175-5825/2024.v16i1.845"
+  - type: article
+    title: "Assessing the effects of COVID-19-related risk on online shopping behavior"
+    authors: "Soares, J. C.; Limongi, R.; de Sousa Júnior, J. H.; Santos, W. S.; Raasch, M.; Hoeckesfeld, L."
+    venue: "Journal of Marketing Analytics"
+    year: 2022
+    citations: 98
+    doi: "10.1057/s41270-022-00156-9"
+  - type: article
+    title: "Optimising digital marketing and social media strategy: from push to pull to performance"
+    authors: "Vieira, V. A.; Severo de Almeida, M. I.; Gabler, C. B.; Limongi, R.; Costa, M.; Pires da Costa, M."
+    venue: "Journal of Marketing Management"
+    year: 2022
+    citations: 71
+    doi: "10.1080/0267257x.2021.1996444"
+  - type: article
+    title: "Engagement in a social media: an analysis in higher education institutions"
+    authors: "Soares, J. C.; Limongi, R.; Cohen, E. D."
+    venue: "Online Information Review"
+    year: 2021
+    citations: 71
+    doi: "10.1108/oir-06-2020-0242"
+  - type: article
+    title: "Generating music with data: Application of Deep Learning models for symbolic music composition"
+    authors: "Ferreira, P.; Limongi, R.; Favero, L. P."
+    venue: "Applied Sciences-Basel"
+    year: 2023
+    citations: 60
+    doi: "10.3390/app13074543"

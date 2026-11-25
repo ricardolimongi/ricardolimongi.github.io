@@ -1,0 +1,19 @@
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#inicio">{{ p.name }}</a>
+    <div class="tools">
+      <nav class="langs" aria-label="{{ t.language[lang] }}">
+        <a href="{{ '/' | relative_url }}" lang="pt-BR" hreflang="pt-BR" aria-label="Português (PT)" data-lang-link{% if lang == "pt" %} aria-current="true"{% endif %}>PT</a>
+        <span aria-hidden="true">|</span>
+        <a href="{{ '/en/' | relative_url }}" lang="en" hreflang="en" aria-label="English (EN)" data-lang-link{% if lang == "en" %} aria-current="true"{% endif %}>EN</a>
+      </nav>
+      <button type="button" class="js-only contrast" id="contrast" aria-pressed="false" aria-label="{{ t.contrast[lang] }}" title="{{ t.contrast[lang] }}">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+      </button>
+      <button type="button" class="js-only menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu">{{ t.menu[lang] }}</button>
+    </div>
+    <nav class="menu" id="menu" aria-label="{{ t.main_nav[lang] }}">
+      <ul>{% for s in nav %}<li><a href="#{{ s }}"{% if s == "inicio" %} aria-current="true"{% endif %}>{{ t.sections[s][lang] }}</a></li>{% endfor %}</ul>
+    </nav>
+  </div>
+</header>

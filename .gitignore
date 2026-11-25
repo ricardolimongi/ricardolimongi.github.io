@@ -1,0 +1,17 @@
+.DS_Store
+lattes.pdf
+foto.png
+caderno_laboratorio.xlsx
+PALESTRAS_PARA_ESCOLHER.md
+CONTEUDO_INICIAL.md
+_site/
+vendor/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+/*.csv
+/*.xls
+/*.xlsx
+# até a confirmação da versão final
+assets/files/caderno-uso-ia.xlsx

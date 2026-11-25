@@ -1,0 +1,14 @@
+{%- assign i = include.item -%}
+{%- assign m = i.date | date: "%-m" | minus: 1 -%}
+<article class="card" id="{{ i.id }}">
+  {%- if i.thumb %}{% unless i.thumb contains "TODO" %}<img class="thumb" src="{{ i.thumb | relative_url }}" alt="{{ i.thumb_alt[lang] | default: i.title[lang] | escape }}" loading="lazy" width="480" height="270">{% endunless %}{% else %}<div class="thumb none" aria-hidden="true">{% if i.type == "video" %}{% assign c = "videos" %}{% elsif i.type == "palestra" %}{% assign c = "palestras" %}{% else %}{% assign c = "materiais" %}{% endif %}<img src="{{ '/assets/img/cena-' | append: c | append: '.webp' | relative_url }}" alt="" loading="lazy" width="1600" height="1000"><span>{{ t.types[i.type][lang] }}</span></div>{% endif %}
+  <div class="card-in">
+    <p class="meta"><time datetime="{{ i.date | date: '%Y-%m-%d' }}">{% if lang == "pt" %}{{ i.date | date: "%-d" }} {{ t.months.pt[m] }} {{ i.date | date: "%Y" }}{% else %}{{ t.months.en[m] }} {{ i.date | date: "%-d, %Y" }}{% endif %}</time>
+    {%- if lang == "en" and i.content_language == "pt" %} <span class="tag">{{ t.in_portuguese[lang] }}</span>{% elsif lang == "pt" and i.content_language == "en" %} <span class="tag">{{ t.in_english[lang] }}</span>{% endif %}</p>
+    <h3>{{ i.title[lang] }}</h3>
+    {%- if i.summary[lang] %}{% unless i.summary[lang] contains "TODO" %}<p>{{ i.summary[lang] }}</p>{% endunless %}{% endif %}
+    {%- if i.note[lang] %}{% unless i.note[lang] contains "TODO" %}<p class="note">{{ i.note[lang] }}</p>{% endunless %}{% endif %}
+    {%- capture ls %}{% for l in i.links %}{% if l.url %}{% unless l.url contains "TODO" or l.label[lang] contains "TODO" %}<li><a href="{% if l.url contains '://' or l.url contains '#' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label[lang] }}</a></li>{% endunless %}{% endif %}{% endfor %}{% endcapture %}
+    {%- if ls != "" %}<ul class="links">{{ ls }}</ul>{% endif %}
+  </div>
+</article>

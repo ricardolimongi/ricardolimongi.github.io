@@ -1,0 +1,61 @@
+# TODO nunca aparece no site.
+name: "Ricardo Limongi"
+full_name: "Ricardo Limongi França Coelho"
+photo: /assets/img/ricardo.webp
+photo_share: /assets/img/ricardo-og.jpg
+role:
+  pt: "Professor Associado da Universidade Federal de Goiás (UFG) e editor-chefe da Brazilian Administration Review (BAR)"
+  en: "Associate Professor at the Federal University of Goiás (UFG) and Editor-in-Chief of the Brazilian Administration Review (BAR)"
+tagline:
+  pt: "IA na pesquisa, com rigor científico."
+  en: "AI in research, with scientific rigor."
+description:
+  pt: "Site de Ricardo Limongi: inteligência artificial na pesquisa, com rigor científico."
+  en: "Ricardo Limongi's website: artificial intelligence in research, with scientific rigor."
+bio:
+  pt: "Sou professor associado da Universidade Federal de Goiás (UFG), onde lidero o HI-Lab (Hybrid Intelligence Laboratory) e atuo como professor permanente do Programa de Pós-Graduação em Administração. Sou editor-chefe da Brazilian Administration Review (BAR), da ANPAD, e editor associado de periódicos nacionais e internacionais. Doutor em Administração pela FGV-EAESP, com doutorado sanduíche na Cornell University, fiz pós-doutorados em machine learning aplicado ao marketing (UFRGS) e em economia comportamental aplicada ao marketing (UnB). Pesquiso a adoção de novas tecnologias em marketing, a tomada de decisão do consumidor e as implicações cognitivas e éticas da inteligência artificial. Também formo pesquisadores e editores para o uso responsável de IA na ciência."
+  en: "I am an Associate Professor at the Federal University of Goiás (UFG), where I lead the HI-Lab (Hybrid Intelligence Laboratory) and serve as permanent faculty in the Graduate Program in Business Administration. I am Editor-in-Chief of the Brazilian Administration Review (BAR), published by ANPAD, and an associate editor of Brazilian and international journals. I hold a PhD in Business Administration from FGV-EAESP, including a visiting doctoral period at Cornell University, and completed postdoctoral work in machine learning applied to marketing (UFRGS) and behavioral economics applied to marketing (UnB). My research covers the adoption of new technologies in marketing, consumer decision-making, and the cognitive and ethical implications of artificial intelligence. I also train researchers and editors in the responsible use of AI in science."
+numbers:
+  - value: { pt: "1.982", en: "1,982" }   # Google Scholar, 24/11/2026
+    label: { pt: "citações no Google Scholar", en: "Google Scholar citations" }
+  - value: { pt: "76", en: "76" }
+    label: { pt: "artigos em periódicos", en: "journal articles" }
+  - value: { pt: "15", en: "15" }
+    label: { pt: "orientações e supervisões concluídas", en: "completed supervisions" }
+roles:
+  - title: { pt: "Editor-chefe, Brazilian Administration Review (BAR)", en: "Editor-in-Chief, Brazilian Administration Review (BAR)" }
+    period: "2024-2026"
+  - title: { pt: "Editor associado: RAM, RAE, Online Information Review e Electronic Commerce Research", en: "Associate Editor: RAM, RAE, Online Information Review and Electronic Commerce Research" }
+  - title: { pt: "Líder do HI-Lab, UFG", en: "Director, HI-Lab, UFG" }
+  - title: { pt: "Bolsista de Produtividade em Desenvolvimento Tecnológico e Extensão Inovadora do CNPq, nível 2", en: "CNPq Technological Development and Innovative Extension Fellow, level 2" }
+  - title: { pt: "Segundo Tesoureiro e coordenador da ABEC Educação, ABEC Brasil", en: "Second Treasurer and ABEC Educação Coordinator, ABEC Brasil" }
+    period: "2026-2028"
+  - title: { pt: "Comitê Científico da Divisão de Marketing da ANPAD", en: "Scientific Committee, ANPAD Marketing Division" }
+    period: "2024-2026"
+  - title: { pt: "Membro da Comissão de IA da UFG", en: "Member of the UFG Artificial Intelligence Committee" }
+awards:
+  - year: "2025"
+    title: { pt: "Building-the-Bridge Best Practical Paper Award, Academy of Marketing Science", en: "Building-the-Bridge Best Practical Paper Award, Academy of Marketing Science" }
+  - year: "2026"
+    title: { pt: "Editorial Review Board Member of the Year 2025 e Reviewer of the Year, Journal of Consumer Behaviour (Wiley)", en: "Editorial Review Board Member of the Year 2025 and Reviewer of the Year, Journal of Consumer Behaviour (Wiley)" }
+  - year: "2026"
+    title: { pt: "Menção honrosa no Prêmio Goiano de Ciência, Tecnologia e Inovação, FAPEG", en: "Honorable mention, Goiás Science, Technology and Innovation Award, FAPEG" }
+  - year: "2026"
+    title: { pt: "Reconhecimento ao desempenho e contribuição acadêmica, ANPAD", en: "Recognition for academic performance and contribution, ANPAD" }
+  - year: "2025"
+    title: { pt: "Outstanding Reviewer, Emerald", en: "Outstanding Reviewer, Emerald" }
+international:   # confirmar nomes das instituições
+  pt: TODO
+  en: TODO
+email: TODO
+featured_video:      # vídeo em destaque no Contato
+  youtube_id: TODO
+  title: { pt: TODO, en: TODO }
+links:
+  - { id: lattes, label: "Lattes", url: TODO }   # http://lattes.cnpq.br/9466882455242939 (404 em 24/11/2026; religar quando voltar)
+  - { id: orcid, label: "ORCID", url: "https://orcid.org/0000-0003-3231-7515" }
+  - { id: scholar, label: "Google Scholar", url: "https://scholar.google.com.br/citations?user=DpkPDqEAAAAJ" }
+  - { id: youtube, label: "YouTube", url: TODO }
+  - { id: instagram, label: "Instagram", url: "https://www.instagram.com/limongi/" }
+  - { id: linkedin, label: "LinkedIn", url: TODO }
+  - { id: substack, label: "Substack", url: "https://substack.com/@ricardolimongi" }

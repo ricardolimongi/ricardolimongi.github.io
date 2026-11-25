@@ -1,0 +1,27 @@
+{%- include visible.html -%}
+<!DOCTYPE html>
+<html lang="{{ t.locale[lang] }}">
+{% include head.html %}
+<body>
+<a class="skip" href="#conteudo">{{ t.skip[lang] }}</a>
+{% include header.html %}
+<main id="conteudo" tabindex="-1">
+{% for s in nav %}
+{% case s %}
+{% when "inicio" %}{% include inicio.html %}
+{% when "sobre" %}{% include sobre.html %}
+{% when "pesquisa" %}{% include pesquisa.html %}
+{% when "hilab" %}{% include hilab.html %}
+{% when "eventos" %}{% include eventos.html %}
+{% when "materiais" %}{% include materiais.html %}
+{% when "videos" %}{% include videos.html %}
+{% when "palestras" %}{% include palestras.html %}
+{% when "publicacoes" %}{% include publicacoes.html %}
+{% when "contato" %}{% include contato.html %}
+{% endcase %}
+{% endfor %}
+</main>
+{% include footer.html %}
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

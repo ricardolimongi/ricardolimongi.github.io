@@ -1,0 +1,50 @@
+{%- comment -%} Filtro único: decide o que é publicável (sem TODO) e quais seções existem. {%- endcomment -%}
+{%- assign lang = page.lang -%}
+{%- assign t = site.data.i18n -%}
+{%- assign p = site.data.profile -%}
+{%- assign materials = "" | split: "" -%}{%- assign videos = "" | split: "" -%}{%- assign talks = "" | split: "" -%}
+{%- for i in site.data.items -%}
+  {%- assign ok = true -%}
+  {%- if i.title.pt == nil or i.title.en == nil or i.title.pt contains "TODO" or i.title.en contains "TODO" -%}{%- assign ok = false -%}{%- endif -%}
+  {%- assign d = i.date | append: "" -%}
+  {%- if d == "" or d contains "TODO" -%}{%- assign ok = false -%}{%- endif -%}
+  {%- unless i.type == "palestra" -%}
+    {%- assign haslink = false -%}
+    {%- for l in i.links -%}{%- if l.url and l.url != "" -%}{%- unless l.url contains "TODO" -%}{%- assign haslink = true -%}{%- endunless -%}{%- endif -%}{%- endfor -%}
+    {%- unless haslink -%}{%- assign ok = false -%}{%- endunless -%}
+  {%- endunless -%}
+  {%- if ok -%}
+    {%- case i.type -%}
+      {%- when "material" -%}{%- assign materials = materials | push: i -%}
+      {%- when "video" -%}{%- assign videos = videos | push: i -%}
+      {%- when "palestra" -%}{%- assign talks = talks | push: i -%}
+    {%- endcase -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign materials = materials | sort: "date" | reverse -%}
+{%- assign videos = videos | sort: "date" | reverse -%}
+{%- assign talks = talks | sort: "date" | reverse -%}
+{%- assign events = "" | split: "" -%}
+{%- for i in site.data.events -%}{%- assign d = i.date | append: "" -%}{%- if i.name.pt and i.name.en and d != "" -%}{%- unless d contains "TODO" or i.name.pt contains "TODO" or i.name.en contains "TODO" -%}{%- assign events = events | push: i -%}{%- endunless -%}{%- endif -%}{%- endfor -%}
+{%- assign events = events | sort: "date" -%}
+{%- assign video = p.featured_video -%}{%- unless video.youtube_id and video.title.pt and video.title.en -%}{%- assign video = nil -%}{%- endunless -%}
+{%- if video.youtube_id contains "TODO" or video.title.pt contains "TODO" or video.title.en contains "TODO" -%}{%- assign video = nil -%}{%- endif -%}
+{%- assign pubs = "" | split: "" -%}
+{%- for i in site.data.publications -%}{%- if i.title and i.year -%}{%- assign y = i.year | append: "" -%}{%- unless i.title contains "TODO" or y contains "TODO" -%}{%- assign pubs = pubs | push: i -%}{%- endunless -%}{%- endif -%}{%- endfor -%}
+{%- assign lines = "" | split: "" -%}
+{%- for i in site.data.research -%}{%- if i.title.pt and i.title.en and i.text.pt and i.text.en -%}{%- unless i.title.pt contains "TODO" or i.title.en contains "TODO" or i.text.pt contains "TODO" or i.text.en contains "TODO" -%}{%- assign lines = lines | push: i -%}{%- endunless -%}{%- endif -%}{%- endfor -%}
+{%- assign links = "" | split: "" -%}
+{%- for i in p.links -%}{%- if i.url -%}{%- unless i.url contains "TODO" -%}{%- assign links = links | push: i -%}{%- endunless -%}{%- endif -%}{%- endfor -%}
+{%- assign email = p.email -%}{%- if email contains "TODO" -%}{%- assign email = nil -%}{%- endif -%}
+{%- assign photo = p.photo -%}{%- if photo contains "TODO" -%}{%- assign photo = nil -%}{%- endif -%}
+{%- assign nav = "inicio" | split: "," -%}
+{%- if p.bio.pt and p.bio.en -%}{%- unless p.bio.pt contains "TODO" or p.bio.en contains "TODO" -%}{%- assign nav = nav | push: "sobre" -%}{%- endunless -%}{%- endif -%}
+{%- if lines.size > 0 -%}{%- assign nav = nav | push: "pesquisa" -%}{%- endif -%}
+{%- assign lab = site.data.lab -%}
+{%- if lab.text.pt and lab.text.en -%}{%- unless lab.text.pt contains "TODO" or lab.text.en contains "TODO" -%}{%- assign nav = nav | push: "hilab" -%}{%- endunless -%}{%- endif -%}
+{%- if events.size > 0 -%}{%- assign nav = nav | push: "eventos" -%}{%- endif -%}
+{%- if materials.size > 0 -%}{%- assign nav = nav | push: "materiais" -%}{%- endif -%}
+{%- if videos.size > 0 -%}{%- assign nav = nav | push: "videos" -%}{%- endif -%}
+{%- if talks.size > 0 -%}{%- assign nav = nav | push: "palestras" -%}{%- endif -%}
+{%- if pubs.size > 0 -%}{%- assign nav = nav | push: "publicacoes" -%}{%- endif -%}
+{%- if links.size > 0 or email or video -%}{%- assign nav = nav | push: "contato" -%}{%- endif -%}

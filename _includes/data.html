@@ -1,0 +1,1 @@
+{%- assign m = include.d | date: "%-m" | minus: 1 -%}{% if lang == "pt" %}{{ include.d | date: "%-d" }} {{ t.months.pt[m] }} {{ include.d | date: "%Y" }}{% else %}{{ t.months.en[m] }} {{ include.d | date: "%-d, %Y" }}{% endif -%}

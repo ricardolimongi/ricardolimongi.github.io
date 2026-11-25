@@ -1,0 +1,12 @@
+<section id="eventos" class="sec">
+  {% include cena.html nome="eventos" %}
+  <div class="wrap">
+    <h2>{{ t.sections.eventos[lang] }}</h2>
+    {%- assign hoje = site.time | date: "%Y%m%d" | plus: 0 %}
+    {%- capture prox %}{% for e in events %}{% assign f = e.end_date | default: e.date | date: "%Y%m%d" | plus: 0 %}{% if f >= hoje %}{% include evento.html e=e %}{% endif %}{% endfor %}{% endcapture %}
+    {%- assign rev = events | reverse %}
+    {%- capture hist %}{% for e in rev %}{% assign f = e.end_date | default: e.date | date: "%Y%m%d" | plus: 0 %}{% if f < hoje %}{% include evento.html e=e %}{% endif %}{% endfor %}{% endcapture %}
+    <div id="ev-prox"{% if prox == "" %} hidden{% endif %}><h3>{{ t.upcoming[lang] }}</h3><ol class="agenda">{{ prox }}</ol></div>
+    <details id="ev-hist" class="more"{% if hist == "" %} hidden{% endif %}{% if prox == "" %} open{% endif %}><summary>{{ t.history[lang] }}</summary><ol class="agenda">{{ hist }}</ol></details>
+  </div>
+</section>
