@@ -24,6 +24,10 @@ blocks:
     pt: "Baixar o caderno de prompts (.docx)"
     en: "Download the prompt notebook (.docx, in Portuguese)"
   - type: arquivo
+    url: "/assets/files/slides-workshop-scispace.pdf"
+    pt: "Baixar os slides (.pdf)"
+    en: "Download the slides (.pdf, in Portuguese)"
+  - type: arquivo
     url: "https://scispace.com/share/01a2137b-c389-7f73-b716-b77310f6b90f"
     pt: "Ver a conversa no SciSpace"
     en: "View the SciSpace conversation (in Portuguese)"
