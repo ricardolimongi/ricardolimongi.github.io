@@ -4,7 +4,9 @@
     {% assign prev = "" %}{% assign cdate = nil %}<h2>{{ t.sections.publicacoes[lang] }}</h2>
     <h3 class="rot">{{ t.recent[lang] }}</h3>
     <ol class="pubs">
-    {%- for x in pubs limit:5 %}{% include pub.html i=x prev=prev %}{% assign prev = x.year %}{% endfor %}
+    {%- comment -%} Todos os artigos do ano mais recente; no mínimo 5. {%- endcomment -%}
+    {%- assign ano = pubs.first.year %}
+    {%- for x in pubs %}{% if x.year != ano and forloop.index > 5 %}{% break %}{% endif %}{% include pub.html i=x prev=prev %}{% assign prev = x.year %}{% endfor %}
     </ol>
     <p class="toda"><a class="btn" href="{{ site.data.paginas.lista_publicacoes.path[lang] | relative_url }}">{{ t.full_list[lang] }}</a></p>
     {%- assign mc = site.data.most_cited %}
