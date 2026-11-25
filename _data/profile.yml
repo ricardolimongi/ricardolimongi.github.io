@@ -55,5 +55,5 @@ links:
   - { id: scholar, label: "Google Scholar", url: "https://scholar.google.com.br/citations?user=DpkPDqEAAAAJ" }
   - { id: youtube, label: "YouTube", url: "https://www.youtube.com/@ricardolimongi_ai" }
   - { id: instagram, label: "Instagram", url: "https://www.instagram.com/limongi/" }
-  - { id: linkedin, label: "LinkedIn", url: TODO }
+  - { id: linkedin, label: "LinkedIn", url: "https://www.linkedin.com/in/ricardolimongi/" }
   - { id: substack, label: "Substack", url: "https://substack.com/@ricardolimongi" }

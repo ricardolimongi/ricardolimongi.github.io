@@ -1,4 +1,4 @@
-"""Atualiza DOI (ORCID, OpenAlex, Crossref) e citações (OpenAlex) em _data/publications.yml.
+"""Atualiza DOI (ORCID, OpenAlex, Crossref) em _data/publications.yml.
 Uso: python3 _tools/publicacoes.py   (não apaga DOI nem link já preenchidos à mão)"""
 import re, json, sys, datetime, unicodedata, difflib, time, urllib.request, urllib.parse, os
 ORCID = "0000-0003-3231-7515"
@@ -43,11 +43,8 @@ for k, b in enumerate(blocks):
                     d = doi(i["DOI"]); log.append((sim(t, i["title"][0]), "Crossref", t, i["title"][0], y, yy)); break
         except Exception as e: print("crossref", e)
     if not d: miss.append(t); continue
-    if d not in cit:
-        try: cit[d] = get("https://api.openalex.org/works/doi:" + urllib.parse.quote(d) + "?select=cited_by_count")["cited_by_count"]
-        except Exception: pass
-    b = re.sub(r"(?m)^  (doi|citations|citations_date): .*\n", "", b)
-    add = f'  doi: "{d}"\n' + (f'  citations: {cit[d]}\n  citations_date: {today}\n' if d in cit else "")
+    b = re.sub(r"(?m)^  doi: .*\n", "", b)
+    add = f'  doi: "{d}"\n'
     blocks[k] = b.rstrip("\n") + "\n" + add
 open(F, "w", encoding="utf-8").write("".join(blocks))
 n = len(blocks)-1

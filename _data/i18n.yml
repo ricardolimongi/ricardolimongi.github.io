@@ -39,7 +39,6 @@ kinds:
   proceedings: { pt: "Trabalho em anais", en: "Conference paper" }
   report: { pt: "Relatório", en: "Report" }
 cited_by: { pt: "Citações", en: "Citations" }
-citations_note: { pt: "Citações: OpenAlex, consulta em", en: "Citations: OpenAlex, retrieved on" }
 upcoming: { pt: "Próximos", en: "Upcoming" }
 history: { pt: "Anteriores", en: "Past events" }
 event_link: { pt: "Página do evento", en: "Event page" }

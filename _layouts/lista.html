@@ -24,9 +24,9 @@
     {%- if lst.size > 0 %}
     <h2 id="{{ g }}">{{ t.groups[g][lang] }}</h2>
     <ol class="pubs">{% assign prev = "" %}{% for x in lst %}{% include pub.html i=x prev=prev %}{% assign prev = x.year %}{% endfor %}</ol>
-    {%- if g == "articles" and cdate %}<p class="fonte">{{ t.citations_note[lang] }} {% include data.html d=cdate %}.</p>{% endif %}
-    {%- endif %}
+        {%- endif %}
   {%- endfor %}
+  {%- if cdate %}<p class="fonte">{{ t.scholar_note[lang] }} {% include data.html d=cdate %}.</p>{% endif %}
   <p class="fim"><a href="{{ raiz | relative_url }}#publicacoes">{{ t.back_pubs[lang] }}</a></p>
   </div>
 </article>

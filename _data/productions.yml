@@ -15,6 +15,8 @@
   venue: "Intercom"
   year: 2024
   url: "https://anpocs.org.br/wp-content/uploads/2025/11/2025-livro-diretrizes-ia.pdf"
+  citations: 149
+  citations_date: 2026-11-25
 - group: books
   title: "Travessias: Diálogos Criativos (organização)"
   authors: "Gomes, L. S.; de Andrade, R. M.; Limongi, R.; Abdala, L."
@@ -25,6 +27,8 @@
   authors: "Brito, E. P. Z.; Zanette, M. C.; Abdalla, C. C.; Ferreira, M.; Limongi, R.; Rosenthal, B."
   venue: "Business Expert Press"
   year: 2015
+  citations: 23
+  citations_date: 2026-11-25
 - group: chapters
   title: "AI in Decision-Making Marketing: Considerations and Strategic Applications within Organizational Contexts"
   authors: "Miranda Filho, S. S.; Limongi, R."
@@ -265,6 +269,8 @@
   authors: "Silva, A. L. B.; Limongi, R."
   venue: "The Latin American Retail and Consumption Conference (CLAV), São Paulo"
   year: 2019
+  citations: 2
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Vamos Planejar suas Publicações no Instagram? Os Efeitos do Estímulo da Mensagem nos Resultados Financeiros"
   authors: "Gomes, A. G.; Limongi, R.; Porto, R. B.; Pimenta, D. P.; Silva, A. L. B."
@@ -305,6 +311,8 @@
   authors: "de Almeida, M. I. S.; Camargo Filho, A.; Oliveira, D. S.; Limongi, R.; Rocha, P. A. S."
   venue: "Encontro da ANPAD - EnANPAD 2017, São Paulo"
   year: 2017
+  citations: 1
+  citations_date: 2026-11-25
 - group: proceedings
   title: "O Impacto do Tipo de Postagens nas Métricas de Engajamento em Diferentes Redes Sociais: Uma Análise no Contexto das ONGs"
   authors: "Limongi, R.; de Almeida, M. I. S."
@@ -315,11 +323,15 @@
   authors: "Limongi, R.; Almeida, M. I. S.; Gomes, A. C.; Camargo Filho, A."
   venue: "Congresso Latino-Americano de Varejo (CLAV), São Paulo"
   year: 2017
+  citations: 12
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Marketing and social media long run performance implications: A time series experiment on small retailing"
   authors: "Almeida, M. I. S.; Limongi, R.; Camargo Filho, A.; Gomes, A. C.; Porto, R. B."
   venue: "Congresso Latino-Americano de Varejo (CLAV), São Paulo"
   year: 2017
+  citations: 3
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Um Estudo empírico dos antecedentes da preferência do consumidor por canais de varejo"
   authors: "Limongi, R.; Zambaldi, F.; Almeida, M. I. S."
@@ -330,21 +342,29 @@
   authors: "Almeida, M. I. S.; Porto, R. B.; Limongi, R."
   venue: "Academy of Marketing Science, Paris, França"
   year: 2016
+  citations: 1
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Deviances from planned purchase: consumer learning history and behaviour setting implications to consumer spending"
   authors: "Almeida, M. I. S.; Porto, R. B.; Limongi, R.; Oliveira, C. M."
   venue: "9o. Congresso Latino Americano de Varejo, São Paulo"
   year: 2016
+  citations: 6
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Marketing Empreendedor: Um Estudo Bibliométrico em Bases de Dados Internacionais"
   authors: "Oliveira, D. S.; Camargo Filho, A.; Peixoto, N.; Limongi, R."
   venue: "VIII EGEPE - Encontro de Estudos Sobre Empreendedorismo e Gestão de Pequenas Empresas, Goiânia"
   year: 2014
+  citations: 5
+  citations_date: 2026-11-25
 - group: proceedings
   title: "A Relação das Micro e Pequenas Empresas com o Uso das Técnicas de Marketing: Um Estudo Exploratório na Visão dos Empreendedores"
   authors: "Miranda, J. R.; Limongi, R.; Camargo Filho, A."
   venue: "VIII EGEPE - Encontro de Estudos Sobre Empreendedorismo e Gestão de Pequenas Empresas, Goiânia"
   year: 2014
+  citations: 2
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Impacto da Extensão do Serviço na Distribuição Exclusiva de Produto: uma investigação na categoria de combustíveis"
   authors: "Almeida, M. I. S.; Isidro Filho, A.; Porto, R. B.; Limongi, R."
@@ -355,6 +375,8 @@
   authors: "Costa, M.; Almeida, M. I. S.; Limongi, R.; Scalco, P. R.; Camargo Filho, A."
   venue: "VI - Encontro de Marketing da Anpad, Gramado - RS"
   year: 2014
+  citations: 9
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Varejo Multicanal e Mobilidade do E-Consumidor Brasileiro: Um Estudo Descritivo com Dados Secundários de 2012 e 2013"
   authors: "Okada, S. I.; Almeida, M. I. S.; Limongi, R.; Porto, R. B."
@@ -375,21 +397,29 @@
   authors: "Costa, M.; Almeida, M. I. S.; Limongi, R.; Scalco, P. R."
   venue: "XVI SEMEAD - Seminários em Administração, São Paulo"
   year: 2013
+  citations: 3
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Ensino do Marketing Empreendedor: Descrição e Análise Comparativa de Experiências Realizadas em Duas Regiões Brasileiras"
   authors: "Limongi, R.; Tete, M.; Almeida, M. I. S.; Borges, C."
   venue: "EGEPE 2012 - Encontro de Estudos Sobre Empreendedorismo e Gestão de Pequenas Empresas, Florianópolis"
   year: 2012
+  citations: 6
+  citations_date: 2026-11-25
 - group: proceedings
   title: "O Valor do Cliente e a Escolha de Ações na Bolsa de Valores"
   authors: "Limongi, R."
   venue: "EnANPAD 2012, Rio de Janeiro"
   year: 2012
+  citations: 1
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Perspectiva evolutiva do Marketing Viral: um Ensaio sobre sua fundamentação teórica e alternativas para futuros trabalhos"
   authors: "Almeida, M. I. S.; Limongi, R.; Tete, M."
   venue: "EnANPAD 2011, Rio de Janeiro"
   year: 2011
+  citations: 5
+  citations_date: 2026-11-25
 - group: proceedings
   title: "Experiential learning as teaching strategy for entrepreneurial marketing education: description of an experience and assessment of its impacts on students' careers"
   authors: "Tete, M.; Limongi, R.; Almeida, M. I. S.; Borges, C."
