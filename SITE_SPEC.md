@@ -49,7 +49,7 @@ Ordem e conteúdo. Uma seção só aparece se tiver itens no arquivo de dados co
 | --- | --- | --- | --- |
 | `#inicio` | Início | Home | `profile.yml` |
 | `#sobre` | Sobre | About | `profile.yml` (bio e números) |
-| `#pesquisa` | Pesquisa | Research | `research.yml` |
+| `#pesquisa` | Temas de pesquisa | Research topics | `research.yml` |
 | `#hilab` | HI-Lab | HI-Lab | `lab.yml` |
 | `#eventos` | Eventos | Events | `events.yml` (agenda e histórico) |
 | `#materiais` | Materiais | Resources | `items.yml` (type: material) |

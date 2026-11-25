@@ -133,7 +133,7 @@ footer{background:var(--noite);padding:24px 0;font-size:.86rem;color:var(--nevoa
  .cena::after{background:linear-gradient(var(--noite),transparent 20%,transparent 80%,var(--noite)),linear-gradient(90deg,rgba(10,15,30,.8),rgba(10,15,30,.72) min(1130px,86%),rgba(10,15,30,.1) calc(min(1130px,86%) + 380px))}
 }
 @media(min-width:1000px){
- :root{--lado:208px;--gut:40px}
+ :root{--lado:216px;--gut:40px}
  html{scroll-padding-top:0}
  .sec{padding:120px 0;min-height:100vh;display:flex;align-items:center}
  .sec .wrap{flex:1;min-width:0}
@@ -175,3 +175,5 @@ footer{background:var(--noite);padding:24px 0;font-size:.86rem;color:var(--nevoa
 .card .video .play{top:50%;width:60px;height:60px;margin:-30px}
 .card .video .play::after{left:24px;top:17px;border-left-width:19px;border-top-width:13px;border-bottom-width:13px}
 @media(min-width:760px){#videos .cards{grid-template-columns:1fr 1fr}}
+@media(min-width:760px){#sobre .lead,#sobre .inter p,#hilab .lead{text-align:justify;-webkit-hyphens:auto;hyphens:auto}}
+@media(min-width:1000px){.menu a{white-space:nowrap}.menu a[aria-current]::before{width:28px}}

@@ -38,7 +38,7 @@ sections:
   eventos: { pt: "Eventos", en: "Events" }
   inicio: { pt: "Início", en: "Home" }
   sobre: { pt: "Sobre", en: "About" }
-  pesquisa: { pt: "Pesquisa", en: "Research" }
+  pesquisa: { pt: "Temas de pesquisa", en: "Research topics" }
   hilab: { pt: "HI-Lab", en: "HI-Lab" }
   materiais: { pt: "Materiais", en: "Resources" }
   videos: { pt: "Vídeos", en: "Videos" }
