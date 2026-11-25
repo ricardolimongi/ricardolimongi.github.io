@@ -86,4 +86,20 @@
       if (navigator.clipboard) navigator.clipboard.writeText(el.textContent).then(ok, sel); else sel();
     });
   });
+  // Cliques em links, arquivos e vídeos (GoatCounter). Sem o serviço, nada acontece.
+  function conta(nome, titulo) {
+    if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: nome, title: titulo, event: true });
+  }
+  function clique(e) {
+    if (e.type === "auxclick" && e.button !== 1) return;
+    var a = e.target.closest && e.target.closest("a[href], [data-copia]");
+    if (!a) return;
+    var txt = (a.getAttribute("aria-label") || a.textContent).trim().slice(0, 80);
+    if (a.hasAttribute("data-copia")) return conta("copiar-modelo" + location.pathname, txt);
+    if (a.hasAttribute("data-video")) return conta("video-" + a.getAttribute("data-video").replace(/^videoseries\?list=/, "playlist-"), txt);
+    if (a.host && a.host !== location.host) return conta("link-" + a.host + a.pathname, txt);
+    if (a.pathname.indexOf("/assets/files/") === 0) conta("arquivo-" + a.pathname.split("/").pop(), txt);
+  }
+  document.addEventListener("click", clique, true);
+  document.addEventListener("auxclick", clique, true);
 })();

@@ -213,3 +213,4 @@ footer{background:var(--noite);padding:24px 0;font-size:.86rem;color:var(--nevoa
 .lista{padding-top:16px;padding-bottom:96px}
 .lista h2{font-size:clamp(1.7rem,3.6vw,2.5rem);margin:72px 0 18px;scroll-margin-top:64px}
 .lista h2:first-child{margin-top:24px}
+footer a{color:inherit}

@@ -12,7 +12,7 @@ Especificação do site pessoal de Ricardo Limongi. Fonte da verdade para o Clau
 ## 2. Tecnologia
 
 - **Jekyll nativo do GitHub Pages**, sem GitHub Actions para publicar. Push na branch `main` publica.
-- Nenhuma dependência de JavaScript para mostrar conteúdo. Todo texto sai no HTML (bom para o Google e para leitores de tela). JavaScript só para o alternador de contraste, o menu (celular e seção atual) a âncora do alternador de idioma, mover eventos passados para o histórico e tocar vídeos e copiar modelos. Sem JavaScript, todo o conteúdo continua acessível.
+- Nenhuma dependência de JavaScript para mostrar conteúdo. Todo texto sai no HTML (bom para o Google e para leitores de tela). JavaScript só para o alternador de contraste, o menu (celular e seção atual) a âncora do alternador de idioma, mover eventos passados para o histórico e tocar vídeos, copiar modelos e contar acessos e cliques (GoatCounter, sem cookies; código em `_config.yml`). Sem JavaScript, todo o conteúdo continua acessível.
 - Endereço: `https://ricardolimongi.github.io/` (sem domínio próprio por enquanto; a estrutura deve permitir adicionar um `CNAME` depois sem mudar nada).
 
 ## 3. Bilíngue: como funciona

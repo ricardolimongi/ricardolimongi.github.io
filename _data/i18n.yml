@@ -47,6 +47,7 @@ play: { pt: "Assistir ao vídeo", en: "Play video" }
 copy: { pt: "Copiar modelo", en: "Copy template" }
 copied: { pt: "Copiado", en: "Copied" }
 back: { pt: "Voltar aos materiais", en: "Back to resources" }
+privacy: { pt: "Estatísticas de acesso com GoatCounter, sem cookies.", en: "Visit statistics by GoatCounter, without cookies." }
 sections:
   eventos: { pt: "Eventos", en: "Events" }
   inicio: { pt: "Início", en: "Home" }

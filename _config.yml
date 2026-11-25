@@ -1,6 +1,7 @@
 title: Ricardo Limongi
 url: "https://ricardolimongi.github.io"
 baseurl: ""
+goatcounter: limongi     # estatísticas de acesso; apague a linha para desligar
 timezone: America/Sao_Paulo
 plugins:
   - jekyll-sitemap

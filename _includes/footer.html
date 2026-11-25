@@ -1,1 +1,3 @@
-<footer><div class="wrap"><p>&copy; {{ site.time | date: "%Y" }} {{ p.name }}. {{ t.footer[lang] }}</p></div></footer>
+<footer><div class="wrap"><p>&copy; {{ site.time | date: "%Y" }} {{ p.name }}. {{ t.footer[lang] }}{% if site.goatcounter %} <a href="https://www.goatcounter.com/help/privacy">{{ t.privacy[lang] }}</a>{% endif %}</p></div></footer>
+{% if site.goatcounter %}<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+{% endif %}
