@@ -66,8 +66,8 @@
       if (e.metaKey || e.ctrlKey || e.shiftKey) return;
       e.preventDefault();
       var f = document.createElement("iframe");
-      f.src = "https://www.youtube-nocookie.com/embed/" + a.getAttribute("data-video") + "?autoplay=1";
-      f.title = a.querySelector(".video-t").textContent;
+      f.src = "https://www.youtube-nocookie.com/embed/" + a.getAttribute("data-video") + (a.getAttribute("data-video").indexOf("?") > -1 ? "&" : "?") + "autoplay=1";
+      f.title = a.getAttribute("data-title") || a.querySelector(".video-t").textContent;
       f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
       f.className = "video";
       f.referrerPolicy = "strict-origin-when-cross-origin";

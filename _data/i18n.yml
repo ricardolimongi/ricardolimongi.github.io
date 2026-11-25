@@ -30,8 +30,9 @@ kinds:
 cited_by: { pt: "Citações", en: "Citations" }
 citations_note: { pt: "Citações: OpenAlex, consulta em", en: "Citations: OpenAlex, retrieved on" }
 upcoming: { pt: "Próximos", en: "Upcoming" }
-history: { pt: "Histórico", en: "Past events" }
+history: { pt: "Anteriores", en: "Past events" }
 event_link: { pt: "Página do evento", en: "Event page" }
+playlist: { pt: "Playlist", en: "Playlist" }
 play: { pt: "Assistir ao vídeo", en: "Play video" }
 sections:
   eventos: { pt: "Eventos", en: "Events" }

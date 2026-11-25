@@ -170,3 +170,8 @@ footer{background:var(--noite);padding:24px 0;font-size:.86rem;color:var(--nevoa
 .hc .retrato{-webkit-mask:none;mask:none}
 @media(max-width:759px){.hc .hero{padding-top:72px}.hc .retrato{position:static;transform:none;width:60%;margin:0 var(--gut) 24px}.hc .top{border-bottom:2px solid #000}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.menu a::before{transition:none}}
+
+.card .video{max-width:none;border-radius:0;margin:0}
+.card .video .play{top:50%;width:60px;height:60px;margin:-30px}
+.card .video .play::after{left:24px;top:17px;border-left-width:19px;border-top-width:13px;border-bottom-width:13px}
+@media(min-width:760px){#videos .cards{grid-template-columns:1fr 1fr}}

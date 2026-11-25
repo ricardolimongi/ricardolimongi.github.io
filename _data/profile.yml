@@ -26,7 +26,7 @@ roles:
   - title: { pt: "Editor-chefe, Brazilian Administration Review (BAR)", en: "Editor-in-Chief, Brazilian Administration Review (BAR)" }
     period: "2024-2026"
   - title: { pt: "Editor associado: RAM, RAE, Online Information Review e Electronic Commerce Research", en: "Associate Editor: RAM, RAE, Online Information Review and Electronic Commerce Research" }
-  - title: { pt: "Líder do HI-Lab, UFG", en: "Director, HI-Lab, UFG" }
+  - title: { pt: "Coordenador do HI-Lab, UFG", en: "Coordinator, HI-Lab, UFG" }
   - title: { pt: "Bolsista de Produtividade em Desenvolvimento Tecnológico e Extensão Inovadora do CNPq, nível 2", en: "CNPq Technological Development and Innovative Extension Fellow, level 2" }
   - title: { pt: "Segundo Tesoureiro e coordenador da ABEC Educação, ABEC Brasil", en: "Second Treasurer and ABEC Educação Coordinator, ABEC Brasil" }
     period: "2026-2028"
@@ -48,12 +48,6 @@ international:
   pt: "Professor visitante na Universidad del Pacífico (Peru), University of the West Indies, Mona (Jamaica) e TBS Education (França); palestrante convidado na University of Kent, University of Leeds, Sacramento State University, Universidade do Minho e Universidade Europeia."
   en: "Visiting professor at Universidad del Pacífico (Peru), University of the West Indies, Mona (Jamaica) and TBS Education (France); invited speaker at the University of Kent, University of Leeds, Sacramento State University, University of Minho and Universidade Europeia."
 email: TODO
-featured_video:      # vídeo em destaque no Contato
-  youtube_id: "NRlaiNLmUv0"
-  thumb: "https://i.ytimg.com/vi/ID/maxresdefault.jpg"
-  title:
-    pt: "Usou IA na pesquisa? O CNPq agora exige que você declare"
-    en: "Used AI in your research? CNPq now requires you to declare it"
 links:
   - { id: lattes, label: "Lattes", url: "https://lattes.cnpq.br/9466882455242939" }
   - { id: orcid, label: "ORCID", url: "https://orcid.org/0000-0003-3231-7515" }

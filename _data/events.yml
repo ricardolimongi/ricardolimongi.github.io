@@ -19,3 +19,12 @@
   timezone: { pt: "horário local", en: "local time" }
   place: { pt: "Sala de teleconferência do Bloco D, UEMS, Dourados (MS)", en: "Teleconference room, Block D, UEMS, Dourados, Brazil" }
   url: "https://www.uems.br/noticias/detalhes/UEMS-Dourados-Mestrado-Profissional-em-Ensino-em-Saude-promove-workshop-sobre-o-uso-de-IA-na-pesquisa"
+- id: bad-portugal-evolucao-da-ciencia-e-ia
+  name:
+    pt: "Evolução da Ciência e Inteligência Artificial: Desafios e Limites"
+    en: "Evolução da Ciência e Inteligência Artificial: Desafios e Limites"
+  date: 2026-12-02
+  time: { pt: "11h", en: "11 am" }
+  timezone: { pt: "horário de Brasília; 14h em Portugal", en: "Brasília time, UTC-3; 2 pm in Portugal" }
+  place: { pt: "On-line, por videoconferência (BAD, Portugal)", en: "Online, by video conference (BAD, Portugal)" }
+  url: "https://eventos.bad.pt/evento/reflexoes-a-sul-4a-sessao/"

@@ -18,7 +18,7 @@
       url: "https://www.in.gov.br/web/dou/-/portaria-cnpq-n-3.004-de-16-de-novembro-de-2026-745254401"
   content_language: pt
 - id: caderno-uso-ia
-  date: TODO
+  date: 2026-11-24
   type: material
   title:
     pt: "Caderno de laboratório: uso de IA"
@@ -33,6 +33,7 @@
 - id: usou-ia-na-pesquisa
   date: 2026-11-22
   type: video
+  youtube: "NRlaiNLmUv0"
   thumb: "https://i.ytimg.com/vi/NRlaiNLmUv0/hqdefault.jpg"
   title:
     pt: "Usou IA na pesquisa? O CNPq agora exige que você declare"
@@ -52,4 +53,21 @@
   links:
     - label: { pt: "Assistir no Instagram", en: "Watch on Instagram" }
       url: TODO
+  content_language: pt
+- id: curso-extensao-ufg-2024
+  date: 2024-12-31          # só para ordenar; no site aparece date_label
+  date_label: { pt: "2024", en: "2024" }
+  type: video
+  youtube: "videoseries?list=PL8Norrhzu5QbpUms0Cc6dv_u-NXx1iiyT"
+  thumb: "https://i.ytimg.com/vi/lXb6tB2OrdY/hqdefault.jpg"
+  playlist: true
+  title:
+    pt: "Pesquisa científica com uso de inteligência artificial: curso de extensão da UFG"
+    en: "Scientific research with artificial intelligence: UFG extension course"
+  summary:
+    pt: "Curso gratuito e aberto com estratégias de pesquisa científica com uso de inteligência artificial."
+    en: "A free and open course on strategies for scientific research with artificial intelligence."
+  links:
+    - label: { pt: "Ver a playlist no YouTube", en: "View the playlist on YouTube" }
+      url: "https://www.youtube.com/playlist?list=PL8Norrhzu5QbpUms0Cc6dv_u-NXx1iiyT"
   content_language: pt
