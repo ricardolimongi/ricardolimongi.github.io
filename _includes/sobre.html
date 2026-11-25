@@ -11,7 +11,7 @@
       {%- capture aw %}{% for a in p.awards limit:5 %}{% unless a.title[lang] contains "TODO" %}<li><span>{{ a.title[lang] }}</span><time>{{ a.year }}</time></li>{% endunless %}{% endfor %}{% endcapture %}
       {%- if aw != "" %}<div><h3>{{ t.awards[lang] }}</h3><ul class="plain">{{ aw }}</ul></div>{% endif %}
     </div>
-    {%- if p.international[lang] %}{% unless p.international[lang] contains "TODO" %}<h3>{{ t.international[lang] }}</h3><p>{{ p.international[lang] }}</p>{% endunless %}{% endif %}
+    {%- if p.international[lang] %}{% unless p.international[lang] contains "TODO" %}<div class="inter"><h3>{{ t.international[lang] }}</h3><p>{{ p.international[lang] }}</p></div>{% endunless %}{% endif %}
     {%- for l in links %}{% if l.id == "lattes" %}<p><a href="{{ l.url }}">{{ t.lattes_link[lang] }}</a></p>{% endif %}{% endfor %}
   </div>
 </section>

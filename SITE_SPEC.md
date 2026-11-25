@@ -64,8 +64,8 @@ Ordem e conteúdo. Uma seção só aparece se tiver itens no arquivo de dados co
 - **HI-Lab:** descrição curta e link para hilab.face.ufg.br. Membros são opcionais (o site institucional é o lugar deles).
 - **Eventos:** agenda com nome, data, horário, local e link (se houver). Próximos primeiro; os passados vão para o histórico (`<details>`), na geração do site e também no navegador, por data.
 - **Materiais, Vídeos, Palestras:** cartões com miniatura, data, título, resumo e links. Mostrar os 6 mais recentes e um botão "ver todos" que expande (sem JavaScript: elemento `<details>`).
-- **Publicações:** lista em texto, mais recentes primeiro, gerada de `publications.yml`. Cada artigo liga ao DOI e mostra citações (OpenAlex, com data) e a classificação do periódico (`journals.yml`). DOI e citações são atualizados por `_tools/publicacoes.py`. Depois das 10 mais recentes, "Mais citadas" traz 10 produções de qualquer tipo (`most_cited.yml`, Google Scholar, com data). Mostrar as 10 mais recentes e link para Google Scholar, ORCID e Lattes.
-- **Contato:** vídeo em destaque (`featured_video` em `profile.yml`, carregado só após o clique), canal do YouTube, e-mail institucional e links: Lattes, ORCID, Google Scholar, YouTube, Instagram, LinkedIn, Substack.
+- **Publicações:** lista em texto, mais recentes primeiro, gerada de `publications.yml`. Cada artigo liga ao DOI e mostra citações (OpenAlex, com data) e a classificação do periódico (`journals.yml`). DOI e citações são atualizados por `_tools/publicacoes.py`. Depois das 5 mais recentes, "Mais citadas" traz 5 produções de qualquer tipo (`most_cited.yml`, Google Scholar, com data). Mostrar as 5 mais recentes e link para Google Scholar, ORCID e Lattes.
+- **Contato:** vídeo em destaque (`featured_video` em `profile.yml`, carregado só após o clique), canal do YouTube, e-mail e links: Lattes, ORCID, Google Scholar, YouTube, Instagram, LinkedIn, Substack.
 
 ## 5. Identidade visual
 

@@ -44,18 +44,21 @@ awards:
     title: { pt: "Reconhecimento ao desempenho e contribuição acadêmica, ANPAD", en: "Recognition for academic performance and contribution, ANPAD" }
   - year: "2025"
     title: { pt: "Outstanding Reviewer, Emerald", en: "Outstanding Reviewer, Emerald" }
-international:   # confirmar nomes das instituições
-  pt: TODO
-  en: TODO
+international:
+  pt: "Professor visitante na Universidad del Pacífico (Peru), University of the West Indies, Mona (Jamaica) e TBS Education (França); palestrante convidado na University of Kent, University of Leeds, Sacramento State University, Universidade do Minho e Universidade Europeia."
+  en: "Visiting professor at Universidad del Pacífico (Peru), University of the West Indies, Mona (Jamaica) and TBS Education (France); invited speaker at the University of Kent, University of Leeds, Sacramento State University, University of Minho and Universidade Europeia."
 email: TODO
 featured_video:      # vídeo em destaque no Contato
-  youtube_id: TODO
-  title: { pt: TODO, en: TODO }
+  youtube_id: "NRlaiNLmUv0"
+  thumb: "https://i.ytimg.com/vi/ID/maxresdefault.jpg"
+  title:
+    pt: "Usou IA na pesquisa? O CNPq agora exige que você declare"
+    en: "Used AI in your research? CNPq now requires you to declare it"
 links:
   - { id: lattes, label: "Lattes", url: "https://lattes.cnpq.br/9466882455242939" }
   - { id: orcid, label: "ORCID", url: "https://orcid.org/0000-0003-3231-7515" }
   - { id: scholar, label: "Google Scholar", url: "https://scholar.google.com.br/citations?user=DpkPDqEAAAAJ" }
-  - { id: youtube, label: "YouTube", url: TODO }
+  - { id: youtube, label: "YouTube", url: "https://www.youtube.com/@ricardolimongi_ai" }
   - { id: instagram, label: "Instagram", url: "https://www.instagram.com/limongi/" }
   - { id: linkedin, label: "LinkedIn", url: TODO }
   - { id: substack, label: "Substack", url: "https://substack.com/@ricardolimongi" }
