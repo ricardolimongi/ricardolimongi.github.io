@@ -1,0 +1,258 @@
+# Página própria de material. Blocos: md (texto), video, modelo (com botão copiar), arquivo.
+path: { pt: /materiais/proposta-de-pesquisa-scispace/, en: /en/resources/research-proposal-scispace/ }
+date: 2026-11-25
+content_language: both
+title:
+  pt: "Da ideia ao projeto aprovado: caderno de prompts para escrever sua proposta de pesquisa"
+  en: "From idea to approved project: a prompt notebook for writing your research proposal"
+description:
+  pt: "Caderno de prompts do workshop com o Agente SciSpace: seis etapas, da ideia à proposta de pesquisa revisada."
+  en: "Prompt notebook from the SciSpace Agent workshop: six steps, from the idea to a revised research proposal."
+blocks:
+  - type: md
+    lead: true
+    pt: |
+      Você tem uma ideia de pesquisa, mas transformá-la em uma proposta sólida parece uma montanha? É preciso definir o problema, encontrar a lacuna na literatura, justificar a relevância, escolher o método e manter tudo coerente para a banca ou para o edital.
+
+      Esta página reúne os materiais do workshop "Da ideia ao projeto aprovado: escreva sua proposta de pesquisa passo a passo com o Agente SciSpace". São seis etapas, com prompts prontos para copiar. Em cada uma, o agente apoia a elaboração e a decisão é sua.
+    en: |
+      You have a research idea, but turning it into a solid proposal feels like climbing a mountain? You need to define the problem, find the gap in the literature, justify its relevance, choose the method and keep everything coherent for the committee or the funding call.
+
+      This page gathers the materials from the workshop "Da ideia ao projeto aprovado: escreva sua proposta de pesquisa passo a passo com o Agente SciSpace" (From idea to approved project: write your research proposal step by step with the SciSpace Agent), held in Portuguese. There are six steps, with prompts ready to copy. In each one, the agent supports the work and the decision is yours.
+  - type: arquivo
+    url: "/assets/files/caderno-prompts-scispace.docx"
+    pt: "Baixar o caderno de prompts (.docx)"
+    en: "Download the prompt notebook (.docx, in Portuguese)"
+  - type: arquivo
+    url: "https://scispace.com/share/01a2137b-c389-7f73-b716-b77310f6b90f"
+    pt: "Ver a conversa no SciSpace"
+    en: "View the SciSpace conversation (in Portuguese)"
+  - type: md
+    pt: |
+      ## O que você vai aprender
+
+      - Transformar uma ideia vaga em uma pergunta de pesquisa clara e delimitada.
+      - Mapear a literatura e testar se a lacuna é real, com fontes verificáveis.
+      - Estruturar a justificativa, os objetivos e as hipóteses.
+      - Desenhar uma metodologia consistente com a pergunta.
+      - Gerar o rascunho da proposta e revisá-lo com olhar crítico.
+      - Usar IA com responsabilidade e manter a sua autoria.
+
+      ## O caso que vamos investigar
+
+      Uma equipe de marketing precisa decidir como distribuir um orçamento entre os canais de divulgação. Um analista faz uma escolha inicial, recebe uma recomendação da IA e pode mantê-la, ajustá-la ou substituí-la. Em que condições essa revisão melhora a decisão? O que acontece quando a recomendação da IA é pouco adequada ao caso?
+
+      No estudo, o participante decide como alocar o orçamento. No workshop, você decide como investigar esse processo. O Agente SciSpace apoia a elaboração do projeto. A IA que, futuramente, recomendará uma alocação aos participantes integra o desenho do estudo e deve ter sua função especificada à parte.
+
+      ## Como usar o caderno
+
+      Copie os parágrafos de cada etapa para uma única conversa. Quando o agente pedir uma escolha, responda com sua decisão e sua justificativa. Salve cada resposta antes de avançar e compartilhe-a posteriormente com os revisores. Para adaptar o exercício, altere as premissas no primeiro prompt.
+
+      ### Uma leitura para começar
+
+      Vaccaro, M., Almaatouq, A. e Malone, T. (2024). [When combinations of humans and AI are useful: A systematic review and meta-analysis](https://doi.org/10.1038/s41562-024-02024-1). *Nature Human Behaviour*.
+    en: |
+      ## What you will learn
+
+      - Turn a vague idea into a clear, well-defined research question.
+      - Map the literature and test whether the gap is real, with verifiable sources.
+      - Structure the rationale, objectives and hypotheses.
+      - Design a methodology consistent with the question.
+      - Generate a draft of the proposal and review it critically.
+      - Use AI responsibly and keep your authorship.
+
+      ## The case we will investigate
+
+      A marketing team needs to decide how to distribute a budget across communication channels. An analyst makes an initial choice, receives a recommendation from the AI and can keep, adjust or replace that choice. Under what conditions does this revision improve the decision? What happens when the AI recommendation is a poor fit for the case?
+
+      In the study, the participant decides how to allocate the budget. In the workshop, you decide how to investigate this process. The SciSpace Agent supports the development of the project. The AI that will later recommend an allocation to participants is part of the study design, and its role must be specified separately.
+
+      ## How to use the notebook
+
+      Copy the paragraphs of each step into a single conversation. When the agent asks for a choice, answer with your decision and your justification. Save each response before moving on and share it later with reviewers. To adapt the exercise, change the assumptions in the first prompt.
+
+      ### A reading to start with
+
+      Vaccaro, M., Almaatouq, A., & Malone, T. (2024). [When combinations of humans and AI are useful: A systematic review and meta-analysis](https://doi.org/10.1038/s41562-024-02024-1). *Nature Human Behaviour*.
+  - type: md
+    pt: |
+      ## Da ideia à evidência
+
+      ### 1. Delimitar a decisão
+    en: |
+      ## From idea to evidence
+
+      ### 1. Define the decision
+  - type: modelo
+    id: etapa-1
+    copy: { pt: "Copiar prompt da etapa 1", en: "Copy step 1 prompt" }
+    pt: |-
+      Ajude-me a propor um estudo sobre inteligência híbrida na tomada de decisão. Meu caso é a alocação de um orçamento de marketing entre os canais. Estudantes de Administração atuarão como analistas. Considero duas turmas, cerca de 40 participantes e um semestre. Comece com até três perguntas sobre a decisão, as informações disponíveis e o critério pelo qual poderíamos avaliar a qualidade da escolha. Aguarde minhas respostas.
+
+      Depois, descreva quem decide, o que a IA recomenda e o que o participante pode revisar. Proponha duas perguntas de pesquisa viáveis. Uma deve privilegiar a qualidade da decisão final e outra, o processo pelo qual o participante aceita, ajusta ou rejeita a recomendação. Para cada pergunta, indique qual observação permitiria respondê-la. Trate a confiança e a rapidez como medidas distintas da qualidade. Aguarde minha escolha.
+    en: |-
+      Help me propose a study on hybrid intelligence in decision-making. My case is the allocation of a marketing budget across channels. Business administration students will act as analysts. I am considering two classes, about 40 participants and one semester. Start with up to three questions about the decision, the information available and the criterion by which we could assess the quality of the choice. Wait for my answers.
+
+      Then describe who decides, what the AI recommends and what the participant can revise. Propose two feasible research questions. One should focus on the quality of the final decision and the other on the process by which the participant accepts, adjusts or rejects the recommendation. For each question, state which observation would allow us to answer it. Treat confidence and speed as measures distinct from quality. Wait for my choice.
+  - type: md
+    pt: |
+      **Sua decisão:** Escolha uma pergunta e explique qual diferença observável faria você considerar uma decisão melhor do que outra.
+    en: |
+      **Your decision:** Choose a question and explain which observable difference would lead you to consider one decision better than another.
+  - type: md
+    pt: |
+      ### 2. Verificar o que a literatura sustenta
+    en: |
+      ### 2. Check what the literature supports
+  - type: modelo
+    id: etapa-2
+    copy: { pt: "Copiar prompt da etapa 2", en: "Copy step 2 prompt" }
+    pt: |-
+      Use a pergunta que escolhi para realizar uma busca exploratória sobre decisões humanas apoiadas por IA. Comece pela revisão de Vaccaro, Almaatouq e Malone (2024), DOI 10.1038/s41562-024-02024-1. Busque também estudos empíricos, inclusive com resultados desfavoráveis à colaboração. Combine termos como human–AI decision making, hybrid intelligence, advice taking e appropriate reliance com termos do domínio quando pertinente.
+
+      Registre as fontes consultadas, a data, as expressões efetivamente usadas e os critérios de seleção. Entregue uma matriz com até 6 publicações. Para cada uma, informe o DOI ou o link, a tarefa, os participantes, o papel da IA, a referência de comparação, a medida de qualidade, o achado e a limitação. Assinale o que foi conferido no texto completo e, quando possível, localize cada achado por seção, página ou tabela. Se houver apenas um resumo, deixe em aberto o detalhe que não constar nele. Indique dois artigos para eu conferir antes da síntese.
+    en: |-
+      Use the question I chose to run an exploratory search on AI-supported human decisions. Start with the review by Vaccaro, Almaatouq and Malone (2024), DOI 10.1038/s41562-024-02024-1. Also look for empirical studies, including those with results unfavorable to collaboration. Combine terms such as human–AI decision making, hybrid intelligence, advice taking and appropriate reliance with domain terms where relevant.
+
+      Record the sources consulted, the date, the expressions actually used and the selection criteria. Deliver a matrix with up to 6 publications. For each one, report the DOI or link, the task, the participants, the role of the AI, the comparison benchmark, the quality measure, the finding and the limitation. Flag what was checked in the full text and, where possible, locate each finding by section, page or table. If only an abstract is available, leave open any detail it does not contain. Indicate two articles for me to check before the synthesis.
+  - type: md
+    pt: |
+      **Sua decisão:** Abra os dois artigos. Confira se a medida avalia a decisão tomada, a confiança declarada ou a concordância com a IA. Corrija a matriz na conversa.
+    en: |
+      **Your decision:** Open the two articles. Check whether the measure assesses the decision made, the stated confidence or the agreement with the AI. Correct the matrix in the conversation.
+  - type: md
+    pt: |
+      ## Da evidência ao desenho
+
+      ### 3. Formular e desafiar a explicação
+    en: |
+      ## From evidence to design
+
+      ### 3. Formulate and challenge the explanation
+  - type: modelo
+    id: etapa-3
+    copy: { pt: "Copiar prompt da etapa 3", en: "Copy step 3 prompt" }
+    pt: |-
+      Use a matriz corrigida para explicar como a recomendação da IA poderia alterar a decisão. Proponha um mecanismo descrito na literatura e uma explicação concorrente. Para cada um, vincule a afirmação à respectiva fonte e indique o comportamento que esperaríamos observar. Diga o que o nosso caso permitiria distinguir e o que permaneceria ambíguo.
+
+      Formule uma lacuna candidata e procure um estudo que já possa tê-la respondido, inclusive em outro domínio. Registre a busca adicional e explique como ela altera a alegação. Redija uma pergunta revisada, um objetivo principal e uma contribuição possível, mesmo se o desempenho conjunto seja igual ou inferior ao desempenho individual. Se houver base para formular uma hipótese direcional, apresente a justificativa e a evidência que a contrariaria. Aguarde minha decisão.
+    en: |-
+      Use the corrected matrix to explain how the AI recommendation could change the decision. Propose one mechanism described in the literature and one competing explanation. For each, link the claim to its source and indicate the behavior we would expect to observe. Say what our case would allow us to distinguish and what would remain ambiguous.
+
+      Formulate a candidate gap and look for a study that may already have addressed it, including in another domain. Record the additional search and explain how it changes the claim. Write a revised question, a main objective and a possible contribution, even if joint performance is equal to or lower than individual performance. If there is a basis for a directional hypothesis, present the rationale and the evidence that would contradict it. Wait for my decision.
+  - type: md
+    pt: |
+      **Sua decisão:** Registre a lacuna mantida ou reformulada, a fonte que mais pesou e a explicação que vale a pena investigar.
+    en: |
+      **Your decision:** Record the gap you kept or reformulated, the source that weighed most and the explanation worth investigating.
+  - type: md
+    pt: |
+      ### 4. Escolher uma comparação informativa
+    en: |
+      ### 4. Choose an informative comparison
+  - type: modelo
+    id: etapa-4
+    copy: { pt: "Copiar prompt da etapa 4", en: "Copy step 4 prompt" }
+    pt: |-
+      Para o objetivo aprovado, compare dois desenhos viáveis em ambas as turmas. No primeiro, considere distribuir os participantes aleatoriamente entre revisão individual e revisão com IA, após uma decisão inicial. No segundo, considere tarefas equivalentes com e sem IA, realizadas pelo mesmo participante, com ordem contrabalançada. Em ambos, descreva como obter, sozinha, uma resposta da IA em cada caso, sob condições documentadas. Explique qual comparação estima o ganho em relação ao humano e qual permite avaliar se a combinação também supera a IA.
+
+      Defina uma medida principal verificável. Se usar o retorno esperado da alocação, especifique o cenário, as restrições, as premissas de cálculo e por que essa medida representa qualidade nesse caso. Mostre como registrar a escolha inicial, a recomendação, a escolha final e a justificativa. Proponha uma regra para identificar aproximação da sugestão e distinguir revisões que melhoram ou pioram o resultado. Explique como tratar coincidências iniciais.
+
+      Inclua um controle para o simples ato de reconsiderar a escolha, variações na qualidade da recomendação, efeitos de ordem e de dependência entre observações. Considere a precisão possível, o número de casos, o consentimento e a proteção das respostas dos alunos. Indique o que dependeria de piloto ou de autorização. Recomende um desenho, explicite as limitações e aguarde minha escolha.
+    en: |-
+      For the approved objective, compare two designs that are feasible in both classes. In the first, consider randomly assigning participants to individual revision or revision with AI, after an initial decision. In the second, consider equivalent tasks with and without AI, performed by the same participant, in counterbalanced order. In both, describe how to obtain a response from the AI alone in each case, under documented conditions. Explain which comparison estimates the gain relative to the human and which one allows us to assess whether the combination also outperforms the AI.
+
+      Define a verifiable main measure. If you use the expected return of the allocation, specify the scenario, the constraints, the calculation assumptions and why this measure represents quality in this case. Show how to record the initial choice, the recommendation, the final choice and the justification. Propose a rule to identify movement toward the suggestion and to distinguish revisions that improve the result from those that worsen it. Explain how to handle initial coincidences.
+
+      Include a control for the simple act of reconsidering the choice, variations in the quality of the recommendation, order effects and dependence between observations. Consider the achievable precision, the number of cases, consent and the protection of student responses. Indicate what would depend on a pilot or on authorization. Recommend a design, state its limitations and wait for my choice.
+  - type: md
+    pt: |
+      **Sua decisão:** Escolha o desenho, o comparador principal e a medida de qualidade. Registre qual inferência você aceita e como verificará sua viabilidade.
+    en: |
+      **Your decision:** Choose the design, the main comparator and the quality measure. Record which inference you accept and how you will verify its feasibility.
+  - type: md
+    pt: |
+      ## Do desenho à proposta revisada
+
+      ### 5. Redigir uma proposta rastreável
+    en: |
+      ## From design to revised proposal
+
+      ### 5. Write a traceable proposal
+  - type: modelo
+    id: etapa-5
+    copy: { pt: "Copiar prompt da etapa 5", en: "Copy step 5 prompt" }
+    pt: |-
+      Redija uma proposta de até 1.000 palavras, incluindo as referências e o cronograma, usando apenas as decisões que aprovei. Se anexei um edital, identifique as exigências e a localização de cada uma. Se não houver edital, organize o título, o problema, a fundamentação, o objetivo, o método, o cronograma e as contribuições esperadas. Em cada passagem central, deixe claro o que provém de um estudo publicado e o que constitui uma escolha deste projeto.
+
+      Detalhe a sequência que o participante seguirá em cada condição. Identifique quais dados serão registrados e como cada análise responderá à pergunta. Inclua um quadro com objetivo, comparação, medida e interpretação admissível. Indique o que arquivar para a repetição do estudo, incluindo casos, regras de pontuação, modelo e versão, quando disponíveis, instruções, recomendações apresentadas e procedimento de análise. Marque pendências como “a confirmar”. Considere resultados possíveis em ambas as direções. Aguarde minha leitura.
+    en: |-
+      Write a proposal of up to 1,000 words, including references and schedule, using only the decisions I approved. If I attached a call for proposals, identify its requirements and where each one is located. If there is no call, organize the title, problem, theoretical background, objective, method, schedule and expected contributions. In each central passage, make clear what comes from a published study and what is a choice made in this project.
+
+      Detail the sequence the participant will follow in each condition. Identify which data will be recorded and how each analysis will answer the question. Include a table with objective, comparison, measure and admissible interpretation. Indicate what to archive so that the study can be repeated, including cases, scoring rules, model and version when available, instructions, recommendations shown and analysis procedure. Mark pending items as “to be confirmed”. Consider possible results in both directions. Wait for my reading.
+  - type: md
+    pt: |
+      **Sua decisão:** Escolha uma afirmação de contribuição e confira se o desenho realmente fornece a comparação necessária para sustentá-la.
+    en: |
+      **Your decision:** Choose a contribution claim and check whether the design really provides the comparison needed to support it.
+  - type: md
+    pt: |
+      ### 6. Revisar como parecerista e como autor
+    en: |
+      ### 6. Review as a referee and as an author
+  - type: modelo
+    id: etapa-6
+    copy: { pt: "Copiar prompt da etapa 6", en: "Copy step 6 prompt" }
+    pt: |-
+      Leia a proposta como parecerista. Se forneci um edital, aplique seus critérios e indique a seção. Caso contrário, avalie a coerência científica e a viabilidade. Apresente as três objeções mais importantes. Para cada uma, reproduza a passagem afetada, explique a consequência para a interpretação e proponha um ajuste concreto. Examine especialmente se o texto confunde seguir a IA com decidir melhor, se as condições são comparáveis e se a alegação de complementaridade tem respaldo nos comparadores escolhidos.
+
+      Aguarde minha resposta sobre quais sugestões aceito, adapto ou rejeito. Só então produza a versão revisada. Mostre o antes e o depois da mudança de maior impacto, identifique as seções afetadas e liste o que ainda precisa de verificação antes da submissão.
+    en: |-
+      Read the proposal as a referee. If I provided a call for proposals, apply its criteria and indicate the section. Otherwise, assess scientific coherence and feasibility. Present the three most important objections. For each one, reproduce the affected passage, explain the consequence for interpretation and propose a concrete adjustment. Examine in particular whether the text confuses following the AI with deciding better, whether the conditions are comparable and whether the complementarity claim is supported by the chosen comparators.
+
+      Wait for my answer on which suggestions I accept, adapt or reject. Only then produce the revised version. Show the before and after of the change with the greatest impact, identify the affected sections and list what still needs verification before submission.
+  - type: md
+    pt: |
+      **Sua decisão:** Registre uma sugestão que exigiu seu julgamento, a evidência utilizada na decisão e o que mudou na versão final.
+    en: |
+      **Your decision:** Record one suggestion that required your judgment, the evidence used in the decision and what changed in the final version.
+  - type: md
+    pt: |
+      ## A conversa do workshop
+
+      A conversa compartilhada mostra o caso sendo trabalhado com o Agente SciSpace e os arquivos que ele produziu. São respostas geradas por IA: confira as fontes, os números e as páginas antes de usar qualquer trecho.
+    en: |
+      ## The workshop conversation
+
+      The shared conversation shows the case being worked through with the SciSpace Agent and the files it produced. These are AI-generated responses, in Portuguese: check the sources, numbers and pages before using any passage.
+  - type: arquivo
+    url: "https://scispace.com/share/01a2137b-c389-7f73-b716-b77310f6b90f"
+    pt: "Abrir a conversa no SciSpace"
+    en: "Open the SciSpace conversation"
+  - type: md
+    pt: |
+      ## Autoria e uso responsável de IA
+
+      - **Decida e registre.** Guarde o que aceitou, adaptou ou rejeitou em cada etapa.
+      - **Confira na fonte.** Abra os artigos antes de citar.
+      - **Proteja os dados.** Não insira conteúdo sigiloso nem dados pessoais de participantes.
+      - **Declare o uso.** Veja o [guia da Portaria CNPq 3.004/2026](/materiais/portaria-cnpq-3004/), com um modelo de declaração.
+
+      ## Outros workshops
+
+      A playlist "Limongi no @SciSpace" reúne outros workshops no canal do SciSpace no YouTube.
+    en: |
+      ## Authorship and responsible AI use
+
+      - **Decide and record.** Keep track of what you accepted, adapted or rejected at each step.
+      - **Check the source.** Open the articles before citing them.
+      - **Protect data.** Do not enter confidential content or participants' personal data.
+      - **Declare the use.** See the [guide to CNPq Ordinance No. 3,004/2026](/en/resources/cnpq-ordinance-3004/), with an AI-use statement template.
+
+      ## Other workshops
+
+      The playlist "Limongi no @SciSpace" gathers other workshops, in Portuguese, on SciSpace's YouTube channel.
+  - type: arquivo
+    url: "https://www.youtube.com/playlist?list=PLSx6AWZJk_mE"
+    pt: "Ver a playlist no YouTube"
+    en: "View the playlist on YouTube"

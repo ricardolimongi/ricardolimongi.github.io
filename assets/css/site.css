@@ -201,7 +201,7 @@ footer{background:var(--noite);padding:24px 0;font-size:.86rem;color:var(--nevoa
 .md li p{margin:0}
 .md blockquote,.modelo blockquote{margin:0;font:400 1.14rem/1.6 var(--serif)}
 .modelo{padding:26px;background:#F7F4EE;color:#14213D;border-radius:14px}
-.modelo blockquote{margin-bottom:20px}
+.modelo blockquote{margin-bottom:20px;white-space:pre-line}
 .md blockquote{margin-top:12px;font-style:italic}
 .fim{margin-top:64px;padding-top:20px;border-top:1px solid var(--linha)}
 .hc .modelo{background:#fff;color:#000;border:2px solid #000}

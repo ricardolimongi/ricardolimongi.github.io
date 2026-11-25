@@ -6,5 +6,6 @@
     {%- capture info %}{% if e.time[lang] %}{% unless e.time[lang] contains "TODO" %}<span>{{ e.time[lang] }}{% if e.timezone[lang] %} ({{ e.timezone[lang] }}){% endif %}</span>{% endunless %}{% endif %}{% if e.place[lang] %}{% unless e.place[lang] contains "TODO" %}<span>{{ e.place[lang] }}</span>{% endunless %}{% endif %}{% endcapture %}
     {%- if info != "" %}<p>{{ info }}</p>{% endif %}
     {%- if e.url %}{% unless e.url contains "TODO" %}<p><a href="{{ e.url }}">{{ t.event_link[lang] }}</a></p>{% endunless %}{% endif %}
+    {%- if e.material[lang] %}{% unless e.material[lang] contains "TODO" %}<p><a href="{{ e.material[lang] | relative_url }}">{{ t.event_material[lang] }}</a></p>{% endunless %}{% endif %}
   </div>
 </li>

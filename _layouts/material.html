@@ -21,7 +21,7 @@
   {%- case b.type %}
   {%- when "md" %}<div class="md{% if b.lead %} abertura{% endif %}">{{ b[lang] | markdownify }}</div>
   {%- when "video" %}<a class="video" href="https://www.youtube.com/watch?v={{ b.youtube }}" data-video="{{ b.youtube }}" aria-label="{{ t.play[lang] }}: {{ b[lang] | escape }}"><img src="{{ b.thumb }}" alt="" loading="lazy" width="1280" height="720"><span class="play" aria-hidden="true"></span><span class="video-t">{{ b[lang] }}</span></a>
-  {%- when "modelo" %}<div class="modelo"><blockquote id="modelo-{{ forloop.index }}">{{ b[lang] }}</blockquote><button type="button" class="btn main js-only" data-copia="modelo-{{ forloop.index }}" data-ok="{{ t.copied[lang] }}">{{ t.copy[lang] }}</button></div>
+  {%- when "modelo" %}{% assign mid = b.id | default: forloop.index %}<div class="modelo"><blockquote id="modelo-{{ mid }}">{{ b[lang] }}</blockquote><button type="button" class="btn main js-only" data-copia="modelo-{{ mid }}" data-ok="{{ t.copied[lang] }}">{{ b.copy[lang] | default: t.copy[lang] }}</button></div>
   {%- when "arquivo" %}<p><a class="btn main" href="{{ b.url | relative_url }}">{{ b[lang] }}</a></p>
   {%- endcase %}
   {%- endfor %}

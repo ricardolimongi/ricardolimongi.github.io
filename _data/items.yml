@@ -1,4 +1,20 @@
 # Itens com data ou links em TODO não aparecem no site.
+- id: caderno-proposta-scispace
+  date: 2026-11-25
+  type: material
+  title:
+    pt: "Da ideia ao projeto aprovado: caderno de prompts para escrever sua proposta de pesquisa"
+    en: "From idea to approved project: a prompt notebook for writing your research proposal"
+  summary:
+    pt: "Seis etapas com prompts prontos para copiar, da ideia à proposta revisada, usados no workshop com o Agente SciSpace."
+    en: "Six steps with ready-to-copy prompts, from the idea to a revised proposal, used in the SciSpace Agent workshop."
+  links:
+    - label: { pt: "Abrir o material", en: "Open the resource" }
+      url: /materiais/proposta-de-pesquisa-scispace/
+      url_en: /en/resources/research-proposal-scispace/
+    - label: { pt: "Baixar o caderno (.docx)", en: "Download the notebook (.docx, in Portuguese)" }
+      url: /assets/files/caderno-prompts-scispace.docx
+  content_language: both
 - id: guia-portaria-3004
   date: 2026-11-24
   type: material

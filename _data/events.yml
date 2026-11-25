@@ -1,6 +1,6 @@
 # Agenda e histórico. Datas passadas vão sozinhas para o histórico.
 # Campos: id, name (pt/en), date, end_date (opcional), time (pt/en, opcional), timezone (opcional, pt/en),
-# place (pt/en, opcional), url (opcional). Sem data definida o evento não aparece.
+# place (pt/en, opcional), url (opcional), material (página de material, pt/en, opcional). Sem data definida o evento não aparece.
 - id: scispace-proposta-de-pesquisa
   name:
     pt: "Da ideia ao projeto aprovado: escreva sua proposta de pesquisa passo a passo com o Agente SciSpace"
@@ -10,6 +10,7 @@
   timezone: { pt: "horário de Brasília", en: "Brasília time, UTC-3" }
   place: { pt: "On-line, por videoconferência", en: "Online, by video conference" }
   url: "https://luma.com/scispace-90lu"
+  material: { pt: /materiais/proposta-de-pesquisa-scispace/, en: /en/resources/research-proposal-scispace/ }
 - id: uems-workshop-pesquisa-ia
   name:
     pt: "Workshop Pesquisa Científica e o Uso da Inteligência Artificial"

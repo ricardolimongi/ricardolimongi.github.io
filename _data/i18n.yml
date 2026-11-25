@@ -45,6 +45,7 @@ event_link: { pt: "Página do evento", en: "Event page" }
 playlist: { pt: "Playlist", en: "Playlist" }
 play: { pt: "Assistir ao vídeo", en: "Play video" }
 copy: { pt: "Copiar modelo", en: "Copy template" }
+event_material: { pt: "Materiais do evento", en: "Event materials" }
 copied: { pt: "Copiado", en: "Copied" }
 back: { pt: "Voltar aos materiais", en: "Back to resources" }
 privacy: { pt: "Estatísticas de acesso com GoatCounter, sem cookies.", en: "Visit statistics by GoatCounter, without cookies." }
