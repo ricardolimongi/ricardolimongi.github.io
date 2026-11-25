@@ -659,14 +659,14 @@
   year: 2015
   volume: "6"
   pages: "26-43"
-  url: TODO
+  url: "https://www.revista.ueg.br/index.php/revista_administracao/article/view/3102/pdf"
 - title: "A Imagem da Pesca Esportiva Segundo Seus Praticantes"
   authors: "Abreu, A. C. C.; Limongi, R.; Camargo Filho, A.; Almeida, M. I. S."
   venue: "Pretexto"
   year: 2015
   volume: "16"
   pages: "47-64"
-  url: TODO
+  url: "https://revista.fumec.br/index.php/pretexto/article/view/2371"   # DOI 10.21714/pretexto.v16i4.2371 não resolve em doi.org (25/11/2026)
   citations: 9
   citations_date: 2026-11-25
 - title: "Experiential learning as teaching strategy for entrepreneurship: assessment of a Brazilian experience"
