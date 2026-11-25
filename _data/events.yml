@@ -28,3 +28,11 @@
   timezone: { pt: "horário de Brasília; 14h em Portugal", en: "Brasília time, UTC-3; 2 pm in Portugal" }
   place: { pt: "On-line, por videoconferência (BAD, Portugal)", en: "Online, by video conference (BAD, Portugal)" }
   url: "https://eventos.bad.pt/evento/reflexoes-a-sul-4a-sessao/"
+- id: enedif-2026-ia-etica-editoras-publicas
+  name:
+    pt: "X Encontro Nacional dos Editores da Rede Federal (ENEDIF). Mesa-redonda: Inteligência Artificial, Ética e Editoras Públicas: desafios e práticas para o acesso democrático ao conhecimento"
+    en: "X Encontro Nacional dos Editores da Rede Federal (ENEDIF). Round table: Inteligência Artificial, Ética e Editoras Públicas: desafios e práticas para o acesso democrático ao conhecimento"
+  date: 2026-12-09
+  time: { pt: "14h às 16h", en: "2 pm to 4 pm" }
+  place: { pt: "Centro de Eventos do Ceará, Fortaleza (CE)", en: "Centro de Eventos do Ceará, Fortaleza, Brazil" }
+  url: "https://www.even3.com.br/enedif2026/"
