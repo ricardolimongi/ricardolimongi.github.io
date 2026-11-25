@@ -18,19 +18,6 @@
     - label: { pt: "Fonte oficial", en: "Official source" }
       url: "https://www.in.gov.br/web/dou/-/portaria-cnpq-n-3.004-de-16-de-novembro-de-2026-745254401"
   content_language: both
-- id: caderno-uso-ia
-  date: 2026-11-24
-  type: material
-  title:
-    pt: "Caderno de laboratório: uso de IA"
-    en: "Lab notebook: AI use"
-  summary:
-    pt: "Planilha para registrar data, ferramenta, etapa, finalidade e conferência de cada uso de IA. A frase da declaração é montada automaticamente."
-    en: "A spreadsheet to log the date, tool, stage, purpose and checking of each AI use. It drafts the statement sentence automatically."
-  links:
-    - label: { pt: "Baixar planilha (.xlsx)", en: "Download spreadsheet (.xlsx)" }
-      url: /assets/files/caderno-uso-ia.xlsx
-  content_language: pt
 - id: usou-ia-na-pesquisa
   date: 2026-11-22
   type: video

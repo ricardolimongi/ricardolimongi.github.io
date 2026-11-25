@@ -13,7 +13,7 @@
       <button type="button" class="js-only menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu">{{ t.menu[lang] }}</button>
     </div>
     <nav class="menu" id="menu" aria-label="{{ t.main_nav[lang] }}">
-      <ul>{% for s in nav %}<li><a href="{{ anc }}#{{ s }}"{% if page.material and s == "materiais" %} aria-current="true"{% elsif page.material == nil and s == "inicio" %} aria-current="true"{% endif %}>{{ t.sections[s][lang] }}</a></li>{% endfor %}</ul>
+      <ul>{% for s in nav %}<li><a href="{{ anc }}#{{ s }}"{% assign sec_ativa = mat.section | default: "materiais" %}{% if page.material and s == sec_ativa %} aria-current="true"{% elsif page.material == nil and s == "inicio" %} aria-current="true"{% endif %}>{{ t.sections[s][lang] }}</a></li>{% endfor %}</ul>
     </nav>
   </div>
 </header>

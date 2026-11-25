@@ -4,14 +4,10 @@
     {% assign prev = "" %}{% assign cdate = nil %}<h2>{{ t.sections.publicacoes[lang] }}</h2>
     <h3 class="rot">{{ t.recent[lang] }}</h3>
     <ol class="pubs">
-    {%- for i in pubs limit:5 %}
-      <li><span class="year">{% unless i.year == prev %}{{ i.year }}{% endunless %}</span><div><cite>{% assign has = false %}{% assign href = i.url %}{% if i.doi and i.doi != "" %}{% unless i.doi contains "TODO" %}{% assign href = i.doi | prepend: "https://doi.org/" %}{% endunless %}{% endif %}{% if href %}{% unless href contains "TODO" %}{% assign has = true %}{% endunless %}{% endif %}{% if has %}<a href="{{ href }}">{{ i.title }}</a>{% else %}{{ i.title }}{% endif %}</cite>
-      {%- if i.authors %}{% unless i.authors contains "TODO" %}<span class="by">{{ i.authors }}</span>{% endunless %}{% endif %}{% if i.venue %}{% unless i.venue contains "TODO" %}<span class="by"><i>{{ i.venue }}</i></span>{% endunless %}{% endif %}
-      {%- capture sel %}{% for j in site.data.journals %}{% if j.venue == i.venue %}{% for r in j.ratings %}{% if r.value and r.system %}{% unless r.value contains "TODO" or r.system contains "TODO" %}<span class="selo">{{ r.system }} {{ r.value }}{% assign ry = r.year | append: "" %}{% if ry != "" %}{% unless ry contains "TODO" %} ({{ ry }}){% endunless %}{% endif %}</span>{% endunless %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% if i.citations > 0 %}{% assign cdate = i.citations_date %}<span class="selo">{{ t.cited_by[lang] }}: {{ i.citations }}</span>{% endif %}{% endcapture %}
-      {%- if sel != "" %}<span class="selos">{{ sel }}</span>{% endif %}</div></li>{% assign prev = i.year %}
-    {%- endfor %}
+    {%- for x in pubs limit:5 %}{% include pub.html i=x prev=prev %}{% assign prev = x.year %}{% endfor %}
     </ol>
     {%- if cdate %}<p class="fonte">{{ t.citations_note[lang] }} {% include data.html d=cdate %}.</p>{% endif %}
+    <p class="toda"><a class="btn" href="{{ site.data.paginas.lista_publicacoes.path[lang] | relative_url }}">{{ t.full_list[lang] }}</a></p>
     {%- assign mc = site.data.most_cited %}
     {%- if mc.items.size > 0 %}
     <h3 class="rot">{{ t.most_cited[lang] }}</h3>

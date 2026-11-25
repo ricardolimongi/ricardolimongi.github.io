@@ -1,0 +1,7 @@
+# Página da lista completa. Dados: publications.yml (artigos) e productions.yml (demais).
+path: { pt: /publicacoes/, en: /en/publications/ }
+section: publicacoes
+title: { pt: "Lista completa de publicações", en: "Full list of publications" }
+description:
+  pt: "Artigos, livros, capítulos e trabalhos em congressos de Ricardo Limongi."
+  en: "Journal articles, books, chapters and conference papers by Ricardo Limongi."

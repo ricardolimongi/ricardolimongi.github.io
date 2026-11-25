@@ -1,0 +1,552 @@
+# Produções além dos artigos publicados (publications.yml). Fonte: lattes.pdf.
+- group: accepted
+  title: "AI Agents in Marketing"
+  authors: "Brei, V. A.; Limongi, R.; Netto, C. S.; Damasio, L."
+  venue: "Foundations and Trends"
+  year: 2026
+- group: accepted
+  title: "Estilos de Aprendizagem e o Trabalho do Dirigente da Pequena Empresa: Uma Survey"
+  authors: "Rosim, D.; Limongi, R.; Machado, C. A.; Escrivao Filho, E."
+  venue: "READ: Revista de Administração da EA/UFRGS"
+  year: 2025
+- group: books
+  title: "Diretrizes para o uso ético e responsável da Inteligência Artificial Generativa: um guia prático para pesquisadores"
+  authors: "Sampaio, R. C.; Sabbatini, M.; Limongi, R."
+  venue: "Intercom"
+  year: 2024
+  url: "https://anpocs.org.br/wp-content/uploads/2025/11/2025-livro-diretrizes-ia.pdf"
+- group: books
+  title: "Travessias: Diálogos Criativos (organização)"
+  authors: "Gomes, L. S.; de Andrade, R. M.; Limongi, R.; Abdala, L."
+  venue: "Universidade Federal de Goiás"
+  year: 2018
+- group: books
+  title: "Corporate Branding in Facebook Fan Pages: Ideas for Improving Your Brand Value"
+  authors: "Brito, E. P. Z.; Zanette, M. C.; Abdalla, C. C.; Ferreira, M.; Limongi, R.; Rosenthal, B."
+  venue: "Business Expert Press"
+  year: 2015
+- group: chapters
+  title: "AI in Decision-Making Marketing: Considerations and Strategic Applications within Organizational Contexts"
+  authors: "Miranda Filho, S. S.; Limongi, R."
+  venue: "The Role of Marketing in Reshaping the Dynamic Landscape of Business (AMSWMC 2025), Springer"
+  year: 2026
+- group: chapters
+  title: "Next-Gen Marketing Insights: Human-AI Collaboration in Analytics"
+  authors: "Coda, R.; Limongi, R."
+  venue: "Developments in Marketing Science: Proceedings of the Academy of Marketing Science, Springer"
+  year: 2026
+- group: chapters
+  title: "Design Thinking e Inteligência Artificial: Uma Abordagem Integrativa para a Resolução Criativa de Problemas no Ensino Superior"
+  authors: "Limongi, R.; Fernandes, V. D. C."
+  venue: "Metodologias Ativas e Inteligência Artificial"
+  year: 2026
+- group: chapters
+  title: "Educação em Tempos de Inteligência Artificial: Usos, Riscos e Ressignificações"
+  authors: "Limongi, R."
+  venue: "Livro de Atas do XVIII Congresso Internacional Galego-Português de Psicopedagogia"
+  year: 2025
+- group: chapters
+  title: "Impactos Ambientais da IA Generativa"
+  authors: "Limongi, R."
+  venue: "Sustentabilidade e inovação: Construindo o Futuro que Queremos"
+  year: 2025
+- group: chapters
+  title: "O Impacto do MEG na Inserção de Inovação em Micro e Pequenas Empresas do Setor de Comércio na Região Norte de Goiás"
+  authors: "Silva, A. T. A.; Messala, L.; Guimaraes, R. R.; Limongi, R."
+  venue: "Processos Contemporâneos: Da Ideia a Aplicação, Gráfica UFG"
+  year: 2019
+- group: chapters
+  title: "Coworking no segmento de moda: experiência numa região atacadista"
+  authors: "Fernandes, A.; Rezende, G.; Garcia, P.; Limongi, R."
+  venue: "Processos Contemporâneos: Da Ideia a Aplicação, Gráfica UFG"
+  year: 2019
+- group: chapters
+  title: "A Evolução dos Estudos Comportamentais no Campo do Marketing"
+  authors: "Limongi, R.; de Almeida, M. I. S.; Gomes, A. C.; Oliveira, D. S."
+  venue: "Travessias: Diálogos Criativos, Universidade Federal de Goiás"
+  year: 2018
+- group: chapters
+  title: "Como Aumentar o Nível de Engajamento do Consumidor no Ambiente Virtual?"
+  authors: "Oliveira, D. S.; Limongi, R.; de Almeida, M. I. S.; Gomes, A. C."
+  venue: "Travessias: Diálogos Criativos, Universidade Federal de Goiás"
+  year: 2018
+- group: chapters
+  title: "O Processo de Compra do Consumidor no Ambiente Multicanal"
+  authors: "Limongi, R.; de Almeida, M. I. S.; Oliveira, D. S.; Gomes, A. C."
+  venue: "Travessias: Diálogos Criativos, Universidade Federal de Goiás"
+  year: 2018
+- group: chapters
+  title: "O Impacto das Inovações e das Redes Sociais no Desempenho do Pequeno Varejista Multicanal"
+  authors: "Gomes, A. C.; Limongi, R.; Oliveira, D. S.; de Almeida, M. I. S."
+  venue: "Travessias: Diálogos Criativos, Universidade Federal de Goiás"
+  year: 2018
+- group: chapters
+  title: "O Marketing Direto Funciona para Clientes já fidelizados? Apenas de forma parcial"
+  authors: "de Almeida, M. I. S.; Limongi, R.; Oliveira, D. S.; Gomes, A. C."
+  venue: "Travessias: Diálogos Criativos, Universidade Federal de Goiás"
+  year: 2018
+- group: chapters
+  title: "How Service Differentiation at the Store Level Impacts B2B Performance? Product-Service Interplay Implications for Sales and Market Share in an Emerging Market"
+  authors: "de Almeida, M. I. S.; Porto, R. B.; Limongi, R."
+  venue: "Developments in Marketing Science: Proceedings of the Academy of Marketing Science, Springer"
+  year: 2017
+- group: chapters
+  title: "Finanças para empreendimentos sustentáveis"
+  authors: "Borges, C.; Najberg, E.; Tete, M.; Borges, M. M.; Freitag, M. S. B.; Limongi, R.; Ferreira, V. R. S."
+  venue: "Empreendedorismo Sustentável, Saraiva"
+  year: 2014
+- group: proceedings
+  title: "Algorithmic Empathy or Amplified Inequality? A Critical Framework for AI-Mediated Stakeholder Engagement in Multilatinas' CSR"
+  authors: "Limongi, R.; Suter, M. B."
+  venue: "AIB-LAC 2026: 16th Annual Conference, Lima, Peru"
+  year: 2026
+- group: proceedings
+  title: "Nubank's Behavioral Nudges: AI, financial inclusion, and the ethics of algorithmic persuasion in Latin America"
+  authors: "Limongi, R."
+  venue: "AIB-LAC 2026: 16th Annual Conference, Lima, Peru"
+  year: 2026
+- group: proceedings
+  title: "Algorithmic Empathy or Amplified Inequality? a Critical Framework for AI-Mediated Stakeholder Engagement in Global Marketing"
+  authors: "Limongi, R.; Suter, M. B."
+  venue: "2026 AMA Global Conference, Nice, France"
+  year: 2026
+- group: proceedings
+  title: "Hybrid Intelligence in Retail: A Sociotechnical Framework for Human-AI Collaboration Across Customer-Facing and Operational Contexts"
+  authors: "Olivera, Á. R.; Limongi, R."
+  venue: "Congresso Latino Americano de Varejo, São Paulo"
+  year: 2026
+- group: proceedings
+  title: "Design de Produtos para Consumidores com Deficiência Visual: Valor, Processos Psicológicos e Estratégias de Marketing"
+  authors: "Cornacchioni, B. V.; Bizarrias, F. S.; Lopes, E. L.; Limongi, R."
+  venue: "L Encontro da ANPAD - EnANPAD 2026, Fortaleza"
+  year: 2026
+- group: proceedings
+  title: "When Can Silicon Samples Be Used in Marketing Research? A Systematic Review and Construct-Based Framework"
+  authors: "Assis, W.; Brandao, M. M.; Espartel, L.; Limongi, R."
+  venue: "17º Congresso Latino-Americano de Varejo e Consumo (CLAV 2026), São Paulo"
+  year: 2026
+- group: proceedings
+  title: "AI In Decision-Making Marketing: Considerations And Strategic Applications within Organizational Contexts"
+  authors: "Miranda Filho, S. S.; Limongi, R."
+  venue: "54th Annual Conference of the European Marketing Academy, Madrid"
+  year: 2025
+- group: proceedings
+  title: "Empowering Transgender Consumers: Crafting an Analytical Framework for Enhancing Well-being in Service Interactions"
+  authors: "Santos, K. B.; Farias, S. A.; Limongi, R."
+  venue: "X Encontro de Marketing da ANPAD, São Paulo"
+  year: 2024
+- group: proceedings
+  title: "Varejo e localização: uma análise temática de 30 anos de produção"
+  authors: "Guedes, T. A.; Brandao, M. M.; Limongi, R.; Sarcinelli, A. F.; Leite, M. C. O."
+  venue: "X Encontro de Marketing da ANPAD, São Paulo"
+  year: 2024
+- group: proceedings
+  title: "Sentiment Analysis: A Tutorial with Python"
+  authors: "Miranda Filho, S. S.; Limongi, R."
+  venue: "VIII Encontro de Ensino e Pesquisa em Administração e Contabilidade (EnEPQ) da ANPAD, São Paulo"
+  year: 2024
+- group: proceedings
+  title: "Perfil e Produção dos Docentes de Marketing dos PPGAs Brasileiros"
+  authors: "Costa Filho, M. C. M.; Rafael, D. N.; Limongi, R."
+  venue: "VIII Encontro de Ensino e Pesquisa em Administração e Contabilidade (EnEPQ) da ANPAD, São Paulo"
+  year: 2024
+- group: proceedings
+  title: "AI In The Decision-Making Marketing: Considerations and Strategic Applications in Organizational Contexts"
+  authors: "Miranda Filho, S. S.; Limongi, R."
+  venue: "Congresso Latino-Americano de Varejo e Consumo, São Paulo"
+  year: 2024
+- group: proceedings
+  title: "Next-Gen Marketing Insights: Human-AI Collaboration in Analytics"
+  authors: "Coda, R. C.; Limongi, R."
+  venue: "Congresso Latino-Americano de Varejo e Consumo, São Paulo"
+  year: 2024
+- group: proceedings
+  title: "Estratégias de coping do consumidor: uma análise bibliométrica"
+  authors: "Santos, K. B.; Limongi, R.; Farias, S. A."
+  venue: "Seminários em Administração, São Paulo"
+  year: 2024
+- group: proceedings
+  title: "Aglomeração varejista: Uma análise do posicionamento temático dos últimos 20 anos e agenda de pesquisa"
+  authors: "Guedes, T. A.; Brandao, M. M.; Limongi, R.; Sarcinelli, A. F."
+  venue: "Congresso Latino-Americano de Varejo e Consumo, São Paulo"
+  year: 2023
+- group: proceedings
+  title: "Luxury Brands: Performance Before and During the COVID-19 Pandemic"
+  authors: "Oliveira, M. O. R.; Sonza, I. B.; Limongi, R.; Silva, T. S.; Costa, J. S."
+  venue: "2022 AMA Winter Academic Conference, On-line"
+  year: 2022
+- group: proceedings
+  title: "Análise de Sentimento na Área de Gestão e Negócios: Uma Visão Geral e Proposta de Agenda de Pesquisa"
+  authors: "Lula, C. S. G.; Limongi, R."
+  venue: "Encontro dos Programas de Pós-Graduação Profissionais em Administração - EMPRAD, On-line"
+  year: 2022
+- group: proceedings
+  title: "The storytelling effect on consumers' purchasing behavior: a systematic literature review with bibliometric approach"
+  authors: "Oliveira Junior, J. R.; Limongi, R."
+  venue: "Encontro dos Programas de Pós-Graduação Profissionais em Administração - EMPRAD, On-line"
+  year: 2022
+- group: proceedings
+  title: "A Decade of Research on Customer and Consumer Engagement: A Review and Future Research Agenda"
+  authors: "Limongi, R.; Santos, S. R. O.; Brei, V. A."
+  venue: "Encontro de Marketing (EMA) 2021 da Associação Nacional de Pós Graduação e Pesquisa em Administração (EnANPAD), On-line"
+  year: 2021
+- group: proceedings
+  title: "Veganizando a Administração: Uma Análise Bibliométrica"
+  authors: "Santos, K. B.; Martins, I. M.; Limongi, R.; Pimpao, I. C. M."
+  venue: "Encontro de Marketing (EMA) 2021 da Associação Nacional de Pós Graduação e Pesquisa em Administração (EnANPAD), On-line"
+  year: 2021
+- group: proceedings
+  title: "Que postagem foi essa?! Uma Proposta de Agenda de Pesquisa Sobre a Tipologia das Postagens e Engajamento"
+  authors: "Limongi, R.; Silva, A. L. B.; Dias, A. P. C."
+  venue: "Encontro de Marketing (EMA) 2021 da Associação Nacional de Pós Graduação e Pesquisa em Administração (EnANPAD), On-line"
+  year: 2021
+- group: proceedings
+  title: "Using Satellite Imagery and Deep Learning to Predict Energy Demand and Measure Sales Performance"
+  authors: "Boff, V. M. O.; Flores, A. F.; Brei, V. A.; Limongi, R.; Netto, C. F. S."
+  venue: "EnAnpad 2021, Online"
+  year: 2021
+- group: proceedings
+  title: "Luxury Brands: Performance Before and During the COVID-19 Pandemic"
+  authors: "Oliveira, M. O. R.; Sonza, I. B.; Limongi, R.; Costa, J. S.; Silva, T. S."
+  venue: "EnANPAD 2021, Online"
+  year: 2021
+- group: proceedings
+  title: "No public surveys, no data? A proposal to forecast income from cable TV subscribers and internet consumption in Brazilian municipalities"
+  authors: "Limongi, R.; Ronqui, R. M.; Coelho, P. P. T.; Francisco, E. R."
+  venue: "CLAV - Congresso Latino Americano de Varejo, On-line"
+  year: 2021
+- group: proceedings
+  title: "The Journey of Customer Experience into Service Failures and Recovery: State of the Art and Future Research Agenda"
+  authors: "Silva, A. L. B.; Limongi, R."
+  venue: "CLAV - Congresso Latino Americano de Varejo, On-line"
+  year: 2021
+- group: proceedings
+  title: "Afinal, o Uso de Metodologias Ágeis Contribui na Inovação de Modelos de Negócios"
+  authors: "Mota, P. G.; Silva, A. L. B.; Limongi, R."
+  venue: "XLIV Encontro da ANPAD - EnANPAD 2020, Online"
+  year: 2020
+- group: proceedings
+  title: "Que postagem foi essa?! Uma Proposta de Agenda de Pesquisa Sobre as Postagens e os Influenciadores Digitais"
+  authors: "Dias, A. P. C.; Limongi, R.; Silva, A. L. B."
+  venue: "CLAV - Congresso Latino Americano de Varejo, On-line"
+  year: 2020
+- group: proceedings
+  title: "Que Tal um Chá? Um Estudo Sobre os Significados de Consumo de Chá Quente no Centro-Oeste Brasileiro"
+  authors: "Nogueira, A. L.; Barboza, R. A.; Limongi, R."
+  venue: "13th Latin American Retail and Consumption Conference (CLAV-2020), On-line"
+  year: 2020
+- group: proceedings
+  title: "Análise da Produção Científica sobre Visual Merchandising: Um Estudo Bibliométrico"
+  authors: "Santos, K. B.; Limongi, R.; Martins, I. M."
+  venue: "13th Latin American Retail and Consumption Conference (CLAV-2020), On-line"
+  year: 2020
+- group: proceedings
+  title: "Expulsão e Polêmica! A Crise na Gestão de Imagem Tem Algum Lado Positivo? A História de uma Participante de Reality"
+  authors: "Spindola, L.; Limongi, R.; Silva, A. L. B."
+  venue: "13th Latin American Retail and Consumption Conference (CLAV-2020), On-line"
+  year: 2020
+- group: proceedings
+  title: "The Influence of Emotions on (Ex)perience of Buying in Times of Crisis"
+  authors: "Silva, A. L. B.; Gomes, A. C.; Limongi, R."
+  venue: "13th Latin American Retail and Consumption Conference (CLAV-2020), On-line"
+  year: 2020
+- group: proceedings
+  title: "Engagement in a Social Media: An Analysis in Higher Education Institutions"
+  authors: "Soares, J. C.; Sarquis, A. B.; Cohen, E. D.; Limongi, R."
+  venue: "XLIII Encontro da ANPAD - EnANPAD 2019, São Paulo"
+  year: 2019
+- group: proceedings
+  title: "Consistência e Regularidade como Determinantes do Desempenho Mercadológico no Campeonato Brasileiro de Futebol"
+  authors: "de Almeida, M. I. S.; Limongi, R.; Holanda, F. B. L.; Silva Junior, J. R."
+  venue: "XLIII Encontro da ANPAD - EnANPAD 2019, São Paulo"
+  year: 2019
+- group: proceedings
+  title: "Os desafios do pesquisador etnográfico no ambiente digital"
+  authors: "Silva, A. L. B.; Limongi, R."
+  venue: "The Latin American Retail and Consumption Conference (CLAV), São Paulo"
+  year: 2019
+- group: proceedings
+  title: "Vamos Planejar suas Publicações no Instagram? Os Efeitos do Estímulo da Mensagem nos Resultados Financeiros"
+  authors: "Gomes, A. G.; Limongi, R.; Porto, R. B.; Pimenta, D. P.; Silva, A. L. B."
+  venue: "The Latin American Retail and Consumption Conference (CLAV), São Paulo"
+  year: 2019
+- group: proceedings
+  title: "A Relação do Uso Mobile para Usuários de Serviços de Streaming"
+  authors: "Quintino, C. C. L.; Limongi, R.; de Almeida, M. I. S.; Pimenta, D. P."
+  venue: "The Latin American Retail and Consumption Conference (CLAV), São Paulo"
+  year: 2019
+- group: proceedings
+  title: "Discounting, Rebate, or no Promotion? A Behaviorist Assessment of Consumer Promotion Choice"
+  authors: "de Almeida, M. I. S.; Limongi, R.; Camargo Filho, A.; Sodre, G. S.; Porto, R. B."
+  venue: "VIII Encontro de Marketing da ANPAD - EMA, Porto Alegre"
+  year: 2018
+- group: proceedings
+  title: "O impacto das inovações em marketing implantadas por meio das redes sociais no desempenho financeiro de uma pequena empresa"
+  authors: "Gomes, A. G.; Limongi, R.; Pimenta, D. P.; Porto, R. B.; Sátiro, R. M."
+  venue: "Congresso Latino-Americano de Varejo (CLAV), São Paulo"
+  year: 2018
+- group: proceedings
+  title: "Baixo Orçamento para Gestão do Marketing: Um Dilema para as Pequenas Empresas"
+  authors: "Dias, A. P. C.; Limongi, R.; Almeida, M. I. S.; Pimenta, D. P."
+  venue: "Congresso Latino-Americano de Varejo (CLAV), São Paulo"
+  year: 2018
+- group: proceedings
+  title: "'Eu aceito!' A Jornada de Compra das Noivas no Segmento de Casamentos"
+  authors: "Jesus, T. R. F.; Limongi, R.; Barboza, R. A.; Silva, A. L. B.; Almeida, M. I. S.; Pimenta, D. P."
+  venue: "Congresso Latino-Americano de Varejo (CLAV), São Paulo"
+  year: 2018
+- group: proceedings
+  title: "When and how pull and push promotion strategies 'pay off': shopper experience using social media and mobile applications"
+  authors: "Vieira, V. A.; Costa, M.; Almeida, M. I. S.; Costa, M. P.; Limongi, R."
+  venue: "Congresso Latino-Americano de Varejo (CLAV), São Paulo"
+  year: 2018
+- group: proceedings
+  title: "Desempenho mercadológico no País do futebol: determinantes simultâneos da presença de público nos estádios"
+  authors: "de Almeida, M. I. S.; Camargo Filho, A.; Oliveira, D. S.; Limongi, R.; Rocha, P. A. S."
+  venue: "Encontro da ANPAD - EnANPAD 2017, São Paulo"
+  year: 2017
+- group: proceedings
+  title: "O Impacto do Tipo de Postagens nas Métricas de Engajamento em Diferentes Redes Sociais: Uma Análise no Contexto das ONGs"
+  authors: "Limongi, R.; de Almeida, M. I. S."
+  venue: "Encontro da ANPAD - EnANPAD, São Paulo"
+  year: 2017
+- group: proceedings
+  title: "O impacto dos influenciadores digitais espontâneos nas métricas de engajamento de uma rede social virtual"
+  authors: "Limongi, R.; Almeida, M. I. S.; Gomes, A. C.; Camargo Filho, A."
+  venue: "Congresso Latino-Americano de Varejo (CLAV), São Paulo"
+  year: 2017
+- group: proceedings
+  title: "Marketing and social media long run performance implications: A time series experiment on small retailing"
+  authors: "Almeida, M. I. S.; Limongi, R.; Camargo Filho, A.; Gomes, A. C.; Porto, R. B."
+  venue: "Congresso Latino-Americano de Varejo (CLAV), São Paulo"
+  year: 2017
+- group: proceedings
+  title: "Um Estudo empírico dos antecedentes da preferência do consumidor por canais de varejo"
+  authors: "Limongi, R.; Zambaldi, F.; Almeida, M. I. S."
+  venue: "Congresso Latino-Americano de Varejo (CLAV), São Paulo"
+  year: 2017
+- group: proceedings
+  title: "How service differentiation at the store level impacts B2B performance? Product-service interplay implications for sales and market share in an emerging market"
+  authors: "Almeida, M. I. S.; Porto, R. B.; Limongi, R."
+  venue: "Academy of Marketing Science, Paris, França"
+  year: 2016
+- group: proceedings
+  title: "Deviances from planned purchase: consumer learning history and behaviour setting implications to consumer spending"
+  authors: "Almeida, M. I. S.; Porto, R. B.; Limongi, R.; Oliveira, C. M."
+  venue: "9o. Congresso Latino Americano de Varejo, São Paulo"
+  year: 2016
+- group: proceedings
+  title: "Marketing Empreendedor: Um Estudo Bibliométrico em Bases de Dados Internacionais"
+  authors: "Oliveira, D. S.; Camargo Filho, A.; Peixoto, N.; Limongi, R."
+  venue: "VIII EGEPE - Encontro de Estudos Sobre Empreendedorismo e Gestão de Pequenas Empresas, Goiânia"
+  year: 2014
+- group: proceedings
+  title: "A Relação das Micro e Pequenas Empresas com o Uso das Técnicas de Marketing: Um Estudo Exploratório na Visão dos Empreendedores"
+  authors: "Miranda, J. R.; Limongi, R.; Camargo Filho, A."
+  venue: "VIII EGEPE - Encontro de Estudos Sobre Empreendedorismo e Gestão de Pequenas Empresas, Goiânia"
+  year: 2014
+- group: proceedings
+  title: "Impacto da Extensão do Serviço na Distribuição Exclusiva de Produto: uma investigação na categoria de combustíveis"
+  authors: "Almeida, M. I. S.; Isidro Filho, A.; Porto, R. B.; Limongi, R."
+  venue: "VI - Encontro de Marketing da Anpad, Gramado - RS"
+  year: 2014
+- group: proceedings
+  title: "Curtir, Comentar, Compartilhar: o Impacto da Tipologia da Postagem sobre a Interação do Cliente com a Marca na Rede Social Virtual"
+  authors: "Costa, M.; Almeida, M. I. S.; Limongi, R.; Scalco, P. R.; Camargo Filho, A."
+  venue: "VI - Encontro de Marketing da Anpad, Gramado - RS"
+  year: 2014
+- group: proceedings
+  title: "Varejo Multicanal e Mobilidade do E-Consumidor Brasileiro: Um Estudo Descritivo com Dados Secundários de 2012 e 2013"
+  authors: "Okada, S. I.; Almeida, M. I. S.; Limongi, R.; Porto, R. B."
+  venue: "7º Congresso Latino-Americano de Varejo (CLAV 2014), São Paulo"
+  year: 2014
+- group: proceedings
+  title: "Preditores da Correspondência Intenção-Compra e das consequências utilitária e informativa da compra com produtos de especialidade: um estudo quase-experimental no varejo de colchões"
+  authors: "Almeida, M. I. S.; Santos, J. A.; Porto, R. B.; Limongi, R."
+  venue: "XVII SEMEAD - Seminários em Administração, São Paulo"
+  year: 2014
+- group: proceedings
+  title: "Marketing de relacionamento sob a ótica do consumidor: uma análise do impacto de variáveis demográficas e mercadológicas"
+  authors: "Novato, V. O. L.; Almeida, M. I. S.; Ferreira, D. L. P.; Limongi, R.; Porto, R. B."
+  venue: "XI Congresso Online - Administração"
+  year: 2014
+- group: proceedings
+  title: "Me sensibiliza que eu te compartilho: o impacto do tipo de postagem sobre o compartilhamento com dados de oito marcas de cerveja no Facebook"
+  authors: "Costa, M.; Almeida, M. I. S.; Limongi, R.; Scalco, P. R."
+  venue: "XVI SEMEAD - Seminários em Administração, São Paulo"
+  year: 2013
+- group: proceedings
+  title: "Ensino do Marketing Empreendedor: Descrição e Análise Comparativa de Experiências Realizadas em Duas Regiões Brasileiras"
+  authors: "Limongi, R.; Tete, M.; Almeida, M. I. S.; Borges, C."
+  venue: "EGEPE 2012 - Encontro de Estudos Sobre Empreendedorismo e Gestão de Pequenas Empresas, Florianópolis"
+  year: 2012
+- group: proceedings
+  title: "O Valor do Cliente e a Escolha de Ações na Bolsa de Valores"
+  authors: "Limongi, R."
+  venue: "EnANPAD 2012, Rio de Janeiro"
+  year: 2012
+- group: proceedings
+  title: "Perspectiva evolutiva do Marketing Viral: um Ensaio sobre sua fundamentação teórica e alternativas para futuros trabalhos"
+  authors: "Almeida, M. I. S.; Limongi, R.; Tete, M."
+  venue: "EnANPAD 2011, Rio de Janeiro"
+  year: 2011
+- group: proceedings
+  title: "Experiential learning as teaching strategy for entrepreneurial marketing education: description of an experience and assessment of its impacts on students' careers"
+  authors: "Tete, M.; Limongi, R.; Almeida, M. I. S.; Borges, C."
+  venue: "Global 2011 Research Symposium on Entrepreneurship, Marketing and Entrepreneurship Education, Rio de Janeiro"
+  year: 2011
+- group: proceedings
+  title: "Planejamento: Sim ou Não? Uma análise do impacto do planejamento na mortalidade e crescimento de empresas nascentes"
+  authors: "Borges, C.; Hashimoto, M.; Limongi, R."
+  venue: "Iberoamerican Academy of Management, Lima, Peru"
+  year: 2011
+- group: expanded
+  title: "Can Synthetic Respondents Replace Humans? Evaluating Silicon and Digital-Twin Samples in an Omnichannel Experiment"
+  authors: "Assis, W.; Brandao, M. M.; Espartel, L.; Sarcinelli, A. F.; Limongi, R."
+  venue: "14th SERVSIG Conference: Shaping the Future Through Service, Braga, Portugal"
+  year: 2026
+- group: expanded
+  title: "A Contingency Framework for Silicon Samples: When Can Synthetic Data Validly Substitute for Human Respondents in Marketing Research?"
+  authors: "Limongi, R.; Brandao, M. M.; Assis, W.; Espartel, L."
+  venue: "14th SERVSIG Conference: Shaping the Future Through Service, Braga, Portugal"
+  year: 2026
+- group: expanded
+  title: "When Silicon Meets Consumer: A Contingency Framework for Synthetic Data Use in Marketing Research"
+  authors: "Limongi, R.; Assis, W.; Brandao, M. M.; Espartel, L."
+  venue: "55th Annual Conference of the European Marketing Academy, Bath"
+  year: 2026
+- group: expanded
+  title: "Beyond Miracle Prompts: The Scholarly Prompting Framework for Prompt Engineering as Academic Competency in Business Administration and Accounting Research"
+  authors: "Limongi, R.; Pimenta, D. P."
+  venue: "L Encontro da ANPAD - EnANPAD 2026, Fortaleza"
+  year: 2026
+- group: expanded
+  title: "Measuring Hybrid Intelligence: A Systematic Review and Conceptual Framework for Sociotechnical Human-AI Collaboration"
+  authors: "Olivera, Á. R.; Limongi, R."
+  venue: "L Encontro da ANPAD - EnANPAD 2026, Fortaleza"
+  year: 2026
+- group: expanded
+  title: "Next-Gen Marketing Insights: Human-AI Collaboration in Analytics"
+  authors: "Coda, R. C.; Limongi, R."
+  venue: "AMS World Marketing Congress, Dijon, França"
+  year: 2025
+- group: expanded
+  title: "AI In Decision-Making Marketing: Considerations And Strategic Applications within Organizational Contexts"
+  authors: "Miranda Filho, S. S.; Limongi, R."
+  venue: "AMS World Marketing Congress, Dijon, França"
+  year: 2025
+- group: expanded
+  title: "Engaging the Sustainable Vegan Consumer: A Typology for Marketing and Well-being"
+  authors: "Lula, C. S. G.; Limongi, R.; Barboza, R. A."
+  venue: "ACR LATIN AMERICA 2025, São Paulo-SP"
+  year: 2025
+- group: expanded
+  title: "Beyond the Transaction: A Model of the Sustainable Vegan Consumer Journey"
+  authors: "Lula, C. S. G.; Limongi, R.; Barboza, R. A."
+  venue: "ACR LATIN AMERICA 2025, São Paulo - SP"
+  year: 2025
+- group: expanded
+  title: "Inteligência Artificial no Judiciário: Uma Proposta de Framework Integrativo"
+  authors: "Dias, S. A. J.; Sátiro, R. M.; Limongi, R."
+  venue: "Encontro de Administração da Justiça - ENAJUS 2024, Natal-RN"
+  year: 2024
+- group: expanded
+  title: "IA Generativa no Poder Judiciário: Posologia e Contraindicações"
+  authors: "Dias, S. A. J.; Sátiro, R. M.; Limongi, R."
+  venue: "Encontro de Administração da Justiça - EnAJUS 2024, Natal-RN"
+  year: 2024
+- group: expanded
+  title: "AI-R2: Judiciário rumo a uma cultura de Inovação"
+  authors: "Dias, S. A. J.; Cerqueira, P. R. G.; Teixeira, S. T.; Sátiro, R. M.; Limongi, R."
+  venue: "Encontro de Administração da Justiça - EnAJUS 2024, Natal-RN"
+  year: 2024
+- group: expanded
+  title: "Using Satellite Imagery and Machine Learning to Forecast Energy Consumption"
+  authors: "Brei, V. A.; Boff, V. M. O.; Flores, A. F.; Netto, C. S.; Limongi, R."
+  venue: "32nd European Conference on Operational Research (Euro 2022), Espoo, Finland"
+  year: 2022
+- group: expanded
+  title: "Análise das Escolhas Temporais e de Risco de Investidores em Previdência Complementar: O Caso da FUNPRESP"
+  authors: "Ávila, F.; Limongi, R.; Araújo, F. A.; Franceschini, C. T.; Inchausti, G.; Ferreira, D.; Pinheiro, R. P.; Dias, C. R. B.; Santana, R. L. F."
+  venue: "6th Brazilian Behavioral Economics and Finance Meeting, São Paulo"
+  year: 2019
+- group: expanded
+  title: "Práticas contemporâneas de marketing: o caso de pequenas empresas de confecção de vestuário"
+  authors: "Cittadin, J.; Sarquis, A. B.; Limongi, R.; Pizzinatto, N. K."
+  venue: "XXII Seminários em Administração, São Paulo"
+  year: 2019
+- group: expanded
+  title: "Análise dos Efeitos das Fusões e Aquisições Transfronteiriças no Risco Operacional das Empresas Adquirentes Oriundas de Países Emergentes e Desenvolvidos"
+  authors: "Paula, B. L.; Pimenta, D. P.; Borsatto, J. M. L. S.; Limongi, R."
+  venue: "XXII Seminários em Administração, São Paulo"
+  year: 2019
+- group: expanded
+  title: "A mobilidade digital como facilitadora na prestação de serviço"
+  authors: "Gomes, L. S.; Limongi, R."
+  venue: "Simpósio Internacional de Inovação em Mídias Interativas (SIIMI), Goiânia"
+  year: 2018
+- group: expanded
+  title: "How marketing balance the battle between branded and unbranded products in an emerging economy? A time series analysis of brand sales"
+  authors: "Almeida, M. I. S.; Porto, R. B.; Limongi, R."
+  venue: "VII Encontro de Marketing - EMA, Belo Horizonte-MG"
+  year: 2016
+- group: expanded
+  title: "Like, Comment, Share: The Impact of Type of Posting About Customer Interaction with Brand in Virtual Social Network"
+  authors: "Costa, M.; Almeida, M. I. S.; Limongi, R.; Scalco, P. R.; Camargo Filho, A."
+  venue: "Academy of Marketing Conference, Bournemouth University"
+  year: 2014
+- group: expanded
+  title: "Interacting to Last: How Small Companies Use Online Social Media to Build Their Corporate Image"
+  authors: "Zanette, M. C.; Limongi, R.; Abdalla, C. C.; Ferreira, M."
+  venue: "Academy of Marketing Conference, Bournemouth University"
+  year: 2014
+- group: expanded
+  title: "Em busca da melhor imagem: inferências da categoria da postagem no engajamento e envolvimento do consumidor em comunidades virtuais de marca"
+  authors: "Camargo Filho, A.; Limongi, R.; Almeida, M. I. S."
+  venue: "XXXVIII Encontro da ANPAD - EnANPAD 2014, Rio de Janeiro-RJ"
+  year: 2014
+- group: abstracts
+  title: "Evaluating Food Consumption Patterns in Brazil's Low-Income Population"
+  authors: "Maciel, F.; Limongi, R."
+  venue: "NEDSI - The Northeast Decision Sciences Institute (NEDSI), Boston-EUA"
+  year: 2024
+- group: abstracts
+  title: "Storytelling as a symbolic informational, nostalgic, and emotional driver to generate value for artisanal food products"
+  authors: "Oliveira Junior, J. R.; Limongi, R.; Eastman, J. K.; Grigsby, J. L."
+  venue: "XLVII Encontro da ANPAD - EnANPAD 2023, São Paulo"
+  year: 2023
+- group: abstracts
+  title: "A Story to Sell: The influence of storytelling on consumers' purchasing behavior"
+  authors: "Oliveira Junior, J. R.; Limongi, R."
+  venue: "XLVI Encontro da ANPAD, On-line"
+  year: 2022
+- group: press
+  title: "Pesquisa da UFG revela desafios que veganos enfrentam nos hábitos de consumo"
+  authors: "Gabriel, A.; Limongi, R."
+  venue: "Jornal da UFG"
+  year: 2026
+- group: press
+  title: "A IA Não Tem Ética, Você Tem: O Papel Humano na Ciência Automatizada"
+  authors: "Limongi, R."
+  venue: "Revista Estratégia e Soluções"
+  year: 2026
+- group: press
+  title: "Sedentarismo Cognitivo"
+  authors: "Limongi, R."
+  venue: "Revista Brasileira de Administração (CFA)"
+  year: 2025
+- group: press
+  title: "Uso da IA avança entre estudantes do ensino fundamental e médio, revela pesquisa"
+  authors: "Limongi, R."
+  venue: "O Popular"
+  year: 2025
+- group: press
+  title: "Cientistas lançam guia inédito no Brasil sobre uso ético da IA generativa"
+  authors: "Stanga, I.; Limongi, R."
+  venue: "Correio Braziliense"
+  year: 2025
+- group: press
+  title: "Como foi seu dia? Só um momento que vou ver seu perfil"
+  authors: "Limongi, R."
+  venue: "Jornal ADUFG"
+  year: 2018

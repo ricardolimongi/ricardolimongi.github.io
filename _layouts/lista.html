@@ -1,0 +1,37 @@
+{%- include visible.html -%}
+{%- assign mat = site.data.paginas[page.material] -%}
+<!DOCTYPE html>
+<html lang="{{ t.locale[lang] }}">
+{% include head.html %}
+<body class="leitura">
+<a class="skip" href="#conteudo">{{ t.skip[lang] }}</a>
+{% include header.html %}
+<main id="conteudo" tabindex="-1">
+<article class="material">
+  <header class="abre">
+    {% include cena.html nome="publicacoes" %}
+    <div class="wrap">
+      <p class="volta"><a href="{{ raiz | relative_url }}#publicacoes">{{ t.sections.publicacoes[lang] }}</a></p>
+      <h1>{{ mat.title[lang] }}</h1>
+      {%- assign grupos = "articles,accepted,books,chapters,proceedings,expanded,abstracts,press" | split: "," %}
+      <ul class="indice">{% for g in grupos %}{% if g == "articles" %}{% assign lst = pubs %}{% else %}{% assign lst = site.data.productions | where: "group", g %}{% endif %}{% if lst.size > 0 %}<li><a href="#{{ g }}">{{ t.groups[g][lang] }}</a> {{ lst.size }}</li>{% endif %}{% endfor %}</ul>
+    </div>
+  </header>
+  <div class="wrap lista">
+  {%- assign cdate = nil %}
+  {%- for g in grupos %}
+    {%- if g == "articles" %}{% assign lst = pubs %}{% else %}{% assign lst = site.data.productions | where: "group", g %}{% endif %}
+    {%- if lst.size > 0 %}
+    <h2 id="{{ g }}">{{ t.groups[g][lang] }}</h2>
+    <ol class="pubs">{% assign prev = "" %}{% for x in lst %}{% include pub.html i=x prev=prev %}{% assign prev = x.year %}{% endfor %}</ol>
+    {%- if g == "articles" and cdate %}<p class="fonte">{{ t.citations_note[lang] }} {% include data.html d=cdate %}.</p>{% endif %}
+    {%- endif %}
+  {%- endfor %}
+  <p class="fim"><a href="{{ raiz | relative_url }}#publicacoes">{{ t.back_pubs[lang] }}</a></p>
+  </div>
+</article>
+</main>
+{% include footer.html %}
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

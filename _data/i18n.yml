@@ -15,7 +15,18 @@ awards: { pt: "Destaques", en: "Highlights" }
 international: { pt: "Experiência internacional", en: "International experience" }
 lattes_link: { pt: "Ver o currículo Lattes", en: "View the Lattes CV (in Portuguese)" }
 lab_link: { pt: "Visitar o site do HI-Lab", en: "Visit the HI-Lab website" }
-pubs_more: { pt: "Lista completa:", en: "Full list:" }
+pubs_more: { pt: "Perfis:", en: "Profiles:" }
+full_list: { pt: "Lista completa", en: "Full list" }
+back_pubs: { pt: "Voltar às publicações", en: "Back to publications" }
+groups:
+  articles: { pt: "Artigos em periódicos", en: "Journal articles" }
+  accepted: { pt: "Artigos aceitos", en: "Accepted articles" }
+  books: { pt: "Livros", en: "Books" }
+  chapters: { pt: "Capítulos de livros", en: "Book chapters" }
+  proceedings: { pt: "Trabalhos completos em congressos", en: "Full conference papers" }
+  expanded: { pt: "Resumos expandidos em congressos", en: "Extended conference abstracts" }
+  abstracts: { pt: "Resumos em congressos", en: "Conference abstracts" }
+  press: { pt: "Textos em jornais e revistas", en: "Newspaper and magazine articles" }
 email: { pt: "E-mail", en: "Email" }
 footer: { pt: "Todos os direitos reservados.", en: "All rights reserved." }
 recent: { pt: "Mais recentes", en: "Most recent" }
