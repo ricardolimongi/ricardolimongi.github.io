@@ -1,21 +1,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{%- capture title %}{{ p.name }} | {{ p.tagline[lang] }}{% endcapture %}
+{%- capture title %}{% if mat %}{{ mat.title[lang] }} | {{ p.name }}{% else %}{{ p.name }} | {{ p.tagline[lang] }}{% endif %}{% endcapture %}
+{%- assign desc = mat.description[lang] | default: p.description[lang] %}
 <title>{{ title | escape }}</title>
-<meta name="description" content="{{ p.description[lang] | escape }}">
+<meta name="description" content="{{ desc | escape }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<link rel="alternate" hreflang="pt-BR" href="{{ '/' | absolute_url }}">
-<link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
-<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
-<meta property="og:type" content="profile">
+<link rel="alternate" hreflang="pt-BR" href="{{ rota_pt | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ rota_en | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ rota_pt | absolute_url }}">
+<meta property="og:type" content="{% if mat %}article{% else %}profile{% endif %}">
 <meta property="og:title" content="{{ title | escape }}">
-<meta property="og:description" content="{{ p.description[lang] | escape }}">
+<meta property="og:description" content="{{ desc | escape }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:locale" content="{{ t.og_locale[lang] }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ title | escape }}">
-<meta name="twitter:description" content="{{ p.description[lang] | escape }}">
+<meta name="twitter:description" content="{{ desc | escape }}">
 {%- if photo %}
 <meta property="og:image" content="{{ p.photo_share | absolute_url }}">
 <meta name="twitter:image" content="{{ p.photo_share | absolute_url }}">

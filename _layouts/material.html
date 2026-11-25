@@ -1,0 +1,35 @@
+{%- include visible.html -%}
+{%- assign mat = site.data.paginas[page.material] -%}
+<!DOCTYPE html>
+<html lang="{{ t.locale[lang] }}">
+{% include head.html %}
+<body class="leitura">
+<a class="skip" href="#conteudo">{{ t.skip[lang] }}</a>
+{% include header.html %}
+<main id="conteudo" tabindex="-1">
+<article class="material">
+  <header class="abre">
+    {% include cena.html nome="materiais" %}
+    <div class="wrap">
+      <p class="volta"><a href="{{ raiz | relative_url }}#materiais">{{ t.sections.materiais[lang] }}</a></p>
+      <h1>{{ mat.title[lang] }}</h1>
+      <p class="meta"><time datetime="{{ mat.date | date: '%Y-%m-%d' }}">{% include data.html d=mat.date %}</time> | {{ p.name }}</p>
+    </div>
+  </header>
+  <div class="wrap corpo">
+  {%- for b in mat.blocks %}
+  {%- case b.type %}
+  {%- when "md" %}<div class="md{% if b.lead %} abertura{% endif %}">{{ b[lang] | markdownify }}</div>
+  {%- when "video" %}<a class="video" href="https://www.youtube.com/watch?v={{ b.youtube }}" data-video="{{ b.youtube }}" aria-label="{{ t.play[lang] }}: {{ b[lang] | escape }}"><img src="{{ b.thumb }}" alt="" loading="lazy" width="1280" height="720"><span class="play" aria-hidden="true"></span><span class="video-t">{{ b[lang] }}</span></a>
+  {%- when "modelo" %}<div class="modelo"><blockquote id="modelo-{{ forloop.index }}">{{ b[lang] }}</blockquote><button type="button" class="btn main js-only" data-copia="modelo-{{ forloop.index }}" data-ok="{{ t.copied[lang] }}">{{ t.copy[lang] }}</button></div>
+  {%- when "arquivo" %}<p><a class="btn main" href="{{ b.url | relative_url }}">{{ b[lang] }}</a></p>
+  {%- endcase %}
+  {%- endfor %}
+  <p class="fim"><a href="{{ raiz | relative_url }}#materiais">{{ t.back[lang] }}</a></p>
+  </div>
+</article>
+</main>
+{% include footer.html %}
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

@@ -31,6 +31,7 @@
   // Marca no menu a seção que está na tela.
   var items = m.querySelectorAll("a");
   function mark() {
+    if (!document.querySelector("main > section[id]")) return;
     var id = current() || "inicio";
     items.forEach(function (a) {
       if (a.getAttribute("href") === "#" + id) a.setAttribute("aria-current", "true");
@@ -73,6 +74,16 @@
       f.referrerPolicy = "strict-origin-when-cross-origin";
       a.replaceWith(f);
       f.focus();
+    });
+  });
+  // Botão que copia o modelo de declaração.
+  document.querySelectorAll("[data-copia]").forEach(function (bt) {
+    var rot = bt.textContent, el = document.getElementById(bt.getAttribute("data-copia"));
+    bt.setAttribute("aria-live", "polite");
+    bt.addEventListener("click", function () {
+      function ok() { bt.textContent = bt.getAttribute("data-ok"); setTimeout(function () { bt.textContent = rot; }, 2000); }
+      function sel() { var r = document.createRange(); r.selectNodeContents(el); var g = getSelection(); g.removeAllRanges(); g.addRange(r); }
+      if (navigator.clipboard) navigator.clipboard.writeText(el.textContent).then(ok, sel); else sel();
     });
   });
 })();

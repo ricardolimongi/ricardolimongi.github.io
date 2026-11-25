@@ -1,0 +1,116 @@
+# Página própria de material. Blocos: md (texto), video, modelo (com botão copiar), arquivo.
+path: { pt: /materiais/portaria-cnpq-3004/, en: /en/resources/cnpq-ordinance-3004/ }
+date: 2026-11-24
+content_language: both
+title:
+  pt: "Portaria CNPq 3.004/2026: guia prático e modelo de declaração de uso de IA"
+  en: "CNPq Ordinance No. 3,004/2026: practical guide and AI-use statement template"
+description:
+  pt: "O que a Portaria CNPq nº 3.004/2026 exige, o que muda para cada perfil e um modelo de declaração de uso de IA."
+  en: "What CNPq Ordinance No. 3,004/2026 requires, what changes for each role, and an AI-use statement template."
+blocks:
+  - type: md
+    lead: true
+    pt: |
+      Em 18 de novembro de 2026, o Diário Oficial da União publicou a Portaria CNPq nº 3.004, que institui diretrizes para o uso de Inteligência Artificial Generativa (IAG) e de Inteligência Artificial Preditiva (IAP) na pesquisa científica apoiada pelo CNPq. A norma entrou em vigor na data de sua publicação, sem período de transição. Aplica-se, no que couber, a bolsistas, proponentes, pareceristas e demais agentes ligados às atividades do CNPq.
+
+      Este material resume os pontos principais da portaria e traz ferramentas práticas para cumpri-la.
+    en: |
+      On November 18, 2026, Brazil's official gazette (Diário Oficial da União) published CNPq Ordinance No. 3,004, which sets guidelines for the use of generative artificial intelligence and predictive artificial intelligence in scientific research supported by CNPq, Brazil's National Council for Scientific and Technological Development. The ordinance took effect on the day of publication, with no transition period. It applies, where relevant, to fellows, applicants, reviewers and others involved in CNPq activities.
+
+      This resource summarizes the main points of the ordinance and offers practical tools for complying with it.
+  - type: video
+    youtube: "NRlaiNLmUv0"
+    thumb: "https://i.ytimg.com/vi/NRlaiNLmUv0/maxresdefault.jpg"
+    pt: "Usou IA na pesquisa? O CNPq agora exige que você declare"
+    en: "Used AI in your research? CNPq now requires you to declare it"
+  - type: md
+    pt: |
+      ## O que a portaria exige, em cinco pontos
+
+      1. **Declarar todo uso de IA generativa, em qualquer fase da pesquisa.** A declaração deve informar a ferramenta e a respectiva versão (quando disponível), a fase da pesquisa e a finalidade específica. A própria norma cita o "apoio à revisão gramatical" como exemplo de finalidade (art. 4º). Quando o sistema de submissão não tiver campo próprio, a declaração deve constar de seção específica do documento (art. 4º, § 1º).
+      2. **A responsabilidade é dos autores.** O pesquisador responde por todo conteúdo produzido com auxílio de IA, e a validação final não pode ser delegada a ferramentas de IA generativa (art. 6º).
+      3. **Proteção de dados e sigilo.** O uso de dados pessoais segue a LGPD (art. 5º). A norma alerta que planos gratuitos podem utilizar os dados inseridos para treinar modelos (art. 6º, § 2º) e proíbe a inserção de conteúdo sigiloso em ferramentas de IA generativa (art. 7º).
+      4. **Regras para pareceristas e para IA preditiva.** Pareceristas não podem submeter projetos ou documentos de terceiros à IA generativa, nem para verificar plágio (art. 8º, § 1º). Projetos que envolvem treinamento de modelos, como árvores de decisão, redes neurais e análise bayesiana, devem declarar o uso de IA preditiva (art. 9º).
+      5. **Consequências.** A omissão injustificada da declaração submete-se aos procedimentos de apuração previstos na Política de Integridade na Atividade Científica (art. 4º, § 2º). Dúvidas e casos omissos devem ser encaminhados à CIAC (art. 11).
+
+      ## O que muda para cada perfil
+
+      As orientações abaixo são recomendações do HI-Lab a partir da leitura da norma. Elas não são exigências da portaria.
+
+      - **Estudantes:** incluam a declaração em teses e dissertações, mesmo que o repositório não tenha um campo para isso.
+      - **Orientadores:** tratem do uso de IA ao longo da orientação, e não apenas na véspera do depósito.
+      - **Pareceristas:** usem as ferramentas institucionais de verificação de similaridade e nunca os chatbots para analisar documentos de terceiros.
+      - **Coordenações de programa:** definam um modelo padrão de declaração e informem as bancas.
+      - **Editores de periódicos:** criem um campo de declaração no sistema de submissão. Boa parte dos autores é financiada pelo CNPq e agora precisa declarar.
+
+      ## Modelo de declaração
+
+      Adapte ao seu uso real e repita a estrutura para cada uso:
+    en: |
+      ## What the ordinance requires, in five points
+
+      1. **Declare every use of generative AI, at any stage of the research.** The statement must specify the tool and its version (when available), the research stage and the specific purpose. The ordinance itself cites "support for grammar revision" as an example of purpose (art. 4). When the submission system has no dedicated field, the statement must appear in a specific section of the document (art. 4, § 1).
+      2. **Responsibility lies with the authors.** Researchers answer for all content produced with the help of AI, and final validation cannot be delegated to generative AI tools (art. 6).
+      3. **Data protection and confidentiality.** The use of personal data follows the LGPD, Brazil's data protection law (art. 5). The ordinance warns that free plans may use the data entered to train models (art. 6, § 2) and prohibits entering confidential content into generative AI tools (art. 7).
+      4. **Rules for reviewers and for predictive AI.** Reviewers may not submit third-party projects or documents to generative AI, not even to check for plagiarism (art. 8, § 1). Projects that involve model training, such as decision trees, neural networks and Bayesian analysis, must declare the use of predictive AI (art. 9).
+      5. **Consequences.** Unjustified omission of the statement is subject to the inquiry procedures set out in CNPq's Policy on Integrity in Scientific Activity (art. 4, § 2). Questions and cases not covered must be referred to CIAC (art. 11).
+
+      ## What changes for each role
+
+      The guidance below consists of HI-Lab recommendations based on our reading of the ordinance. These are not requirements of the ordinance.
+
+      - **Students:** include the statement in theses and dissertations, even if the repository has no field for it.
+      - **Advisors:** discuss AI use throughout the supervision, not only on the eve of submission.
+      - **Reviewers:** use institutional similarity-checking tools, and never chatbots, to analyze third-party documents.
+      - **Graduate program coordinators:** define a standard statement template and inform examination committees.
+      - **Journal editors:** create a statement field in the submission system. A large share of authors is funded by CNPq and now needs to declare.
+
+      ## AI-use statement template
+
+      Adapt it to your actual use and repeat the structure for each use:
+  - type: modelo
+    pt: "Declaração de uso de Inteligência Artificial. Na etapa de [etapa], foi utilizado o [ferramenta] (versão [modelo], acesso em [mês/ano]) para [finalidade específica]. Todo o conteúdo, código e resultado foi verificado e validado pelos autores, que assumem integral responsabilidade por ele."
+    en: "Artificial intelligence use statement. At the [stage] stage, [tool] (version [model], accessed in [month/year]) was used for [specific purpose]. All content, code and results were checked and validated by the authors, who take full responsibility for them."
+  - type: md
+    pt: |
+      ### Exemplo preenchido
+
+      > Na etapa de redação, foi utilizado o ChatGPT (versão [modelo], acesso em novembro de 2026) para revisão gramatical da introdução. Na etapa de análise de dados, foi treinado um modelo de aprendizado de máquina para classificação de comentários de consumidores. Todo o conteúdo, código e resultado foi verificado e validado pelos autores, que assumem integral responsabilidade por ele.
+
+      ## Caderno de laboratório: uso de IA
+
+      Para não depender da memória ao declarar, o HI-Lab recomenda registrar cada uso no dia em que ocorre. A planilha modelo tem cinco colunas (data, ferramenta e versão, etapa, finalidade e "conferi?") e monta automaticamente a frase da declaração com base no que você registrou.
+    en: |
+      ### Completed example
+
+      > At the writing stage, ChatGPT (version [model], accessed in November 2026) was used for grammar revision of the introduction. At the data analysis stage, a machine learning model was trained to classify consumer comments. All content, code and results were checked and validated by the authors, who take full responsibility for them.
+
+      ## Lab notebook: AI use
+
+      So that you do not have to rely on memory when declaring, HI-Lab recommends logging each use on the day it happens. The template spreadsheet has five columns (date, tool and version, stage, purpose and "checked?") and automatically drafts the statement sentence from what you logged. The spreadsheet is in Portuguese.
+  - type: arquivo
+    url: /assets/files/caderno-uso-ia.xlsx
+    pt: "Baixar a planilha modelo (.xlsx)"
+    en: "Download the template spreadsheet (.xlsx)"
+  - type: md
+    pt: |
+      ## O que a portaria ainda não responde
+
+      Duas questões devem ser esclarecidas caso a caso: o que conta como "treinamento de modelos" para fins do art. 9º e o que caracteriza uma omissão "injustificada". Em dúvida, a recomendação é declarar.
+
+      ## Fonte e aviso
+
+      [Portaria CNPq nº 3.004, de 16 de novembro de 2026, publicada no DOU de 18/11/2026](https://www.in.gov.br/web/dou/-/portaria-cnpq-n-3.004-de-16-de-novembro-de-2026-745254401)
+
+      Este material é uma leitura didática da norma, elaborada pelo HI-Lab (FACE/UFG), e não substitui a orientação oficial do CNPq. Para dúvidas sobre casos concretos, consulte a Comissão de Integridade na Atividade Científica (CIAC), conforme o art. 11 da portaria.
+    en: |
+      ## What the ordinance does not yet answer
+
+      Two questions need to be clarified case by case: what counts as "model training" for the purposes of art. 9, and what makes an omission "unjustified". When in doubt, the recommendation is to declare.
+
+      ## Source and disclaimer
+
+      [CNPq Ordinance No. 3,004 of November 16, 2026, published in the DOU on November 18, 2026 (in Portuguese)](https://www.in.gov.br/web/dou/-/portaria-cnpq-n-3.004-de-16-de-novembro-de-2026-745254401)
+
+      This resource is an educational reading of the ordinance, prepared by HI-Lab (FACE/UFG), and does not replace official CNPq guidance. For questions about specific cases, contact CNPq's scientific integrity committee (Comissão de Integridade na Atividade Científica, CIAC), as provided in art. 11 of the ordinance.

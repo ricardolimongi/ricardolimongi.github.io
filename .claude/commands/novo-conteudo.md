@@ -13,6 +13,7 @@ Passos:
 2. **Reúna o que falta.** Confira se tem: título, data, resumo, links (YouTube, arquivo, página externa) e miniatura. Pergunte só o que faltar e for necessário. Se for um vídeo do YouTube, use o ID do vídeo para gerar a miniatura (`https://i.ytimg.com/vi/<ID>/hqdefault.jpg`) e o link.
 3. **Arquivos.** Se o usuário indicou um arquivo para baixar, copie para `assets/files/` com nome em minúsculas, sem acentos e com hífens. Converta miniaturas para WebP com no máximo 200 KB em `assets/img/`.
 4. **Escreva o item em `_data/items.yml`**, no topo da lista, com `id` único (slug do título em português), `date`, `type`, `title.pt`, `title.en`, `summary.pt`, `summary.en`, `links` com rótulos nos dois idiomas e `content_language`.
+   Se o usuário enviou um texto longo, crie também a página: `_data/paginas/<nome>.yml` e os dois `index.md` (modelo: `portaria_cnpq_3004`). Confira normas na fonte oficial e aponte divergências, sem corrigir o sentido por conta própria.
 5. **Traduza** seguindo o tom e o glossário do `CLAUDE.md`. Resumo de até 25 palavras em cada idioma.
 6. **Verifique** com a seção 9 do `SITE_SPEC.md`.
 7. **Mostre ao usuário**, nesta ordem:

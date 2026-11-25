@@ -1,5 +1,8 @@
 {%- comment -%} Filtro único: decide o que é publicável (sem TODO) e quais seções existem. {%- endcomment -%}
 {%- assign lang = page.lang -%}
+{%- assign raiz = "/" -%}{%- if lang == "en" -%}{%- assign raiz = "/en/" -%}{%- endif -%}
+{%- assign rota_pt = "/" -%}{%- assign rota_en = "/en/" -%}{%- assign anc = "" -%}
+{%- if page.material -%}{%- assign rota = site.data.paginas[page.material].path -%}{%- assign rota_pt = rota.pt -%}{%- assign rota_en = rota.en -%}{%- assign anc = raiz -%}{%- endif -%}
 {%- assign t = site.data.i18n -%}
 {%- assign p = site.data.profile -%}
 {%- assign materials = "" | split: "" -%}{%- assign videos = "" | split: "" -%}{%- assign talks = "" | split: "" -%}

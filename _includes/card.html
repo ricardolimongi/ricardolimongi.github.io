@@ -8,7 +8,7 @@
     <h3>{{ i.title[lang] }}</h3>
     {%- if i.summary[lang] %}{% unless i.summary[lang] contains "TODO" %}<p>{{ i.summary[lang] }}</p>{% endunless %}{% endif %}
     {%- if i.note[lang] %}{% unless i.note[lang] contains "TODO" %}<p class="note">{{ i.note[lang] }}</p>{% endunless %}{% endif %}
-    {%- capture ls %}{% for l in i.links %}{% if l.url %}{% unless l.url contains "TODO" or l.label[lang] contains "TODO" %}<li><a href="{% if l.url contains '://' or l.url contains '#' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label[lang] }}</a></li>{% endunless %}{% endif %}{% endfor %}{% endcapture %}
+    {%- capture ls %}{% for l in i.links %}{% if l.url %}{% unless l.url contains "TODO" or l.label[lang] contains "TODO" %}<li><a href="{% if lang == 'en' and l.url_en %}{{ l.url_en | relative_url }}{% elsif l.url contains '://' or l.url contains '#' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label[lang] }}</a></li>{% endunless %}{% endif %}{% endfor %}{% endcapture %}
     {%- if ls != "" %}<ul class="links">{{ ls }}</ul>{% endif %}
   </div>
 </article>

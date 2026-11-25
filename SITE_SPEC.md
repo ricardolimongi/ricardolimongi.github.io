@@ -12,7 +12,7 @@ Especificação do site pessoal de Ricardo Limongi. Fonte da verdade para o Clau
 ## 2. Tecnologia
 
 - **Jekyll nativo do GitHub Pages**, sem GitHub Actions para publicar. Push na branch `main` publica.
-- Nenhuma dependência de JavaScript para mostrar conteúdo. Todo texto sai no HTML (bom para o Google e para leitores de tela). JavaScript só para o alternador de contraste, o menu (celular e seção atual) a âncora do alternador de idioma, mover eventos passados para o histórico e abrir o vídeo em destaque. Sem JavaScript, todo o conteúdo continua acessível.
+- Nenhuma dependência de JavaScript para mostrar conteúdo. Todo texto sai no HTML (bom para o Google e para leitores de tela). JavaScript só para o alternador de contraste, o menu (celular e seção atual) a âncora do alternador de idioma, mover eventos passados para o histórico e tocar vídeos e copiar modelos. Sem JavaScript, todo o conteúdo continua acessível.
 - Endereço: `https://ricardolimongi.github.io/` (sem domínio próprio por enquanto; a estrutura deve permitir adicionar um `CNAME` depois sem mudar nada).
 
 ## 3. Bilíngue: como funciona
@@ -41,7 +41,7 @@ Especificação do site pessoal de Ricardo Limongi. Fonte da verdade para o Clau
 - O alternador PT | EN no topo leva à mesma seção no outro idioma (âncoras iguais nos dois).
 - Tags `hreflang` e `<html lang>` corretas nas duas versões.
 
-## 4. Estrutura da página (página única com âncoras)
+## 4. Estrutura da página (página única com âncoras, mais páginas de material)
 
 Ordem e conteúdo. Uma seção só aparece se tiver itens no arquivo de dados correspondente (nada de seção vazia).
 
@@ -64,6 +64,7 @@ Ordem e conteúdo. Uma seção só aparece se tiver itens no arquivo de dados co
 - **HI-Lab:** descrição curta e link para hilab.face.ufg.br. Membros são opcionais (o site institucional é o lugar deles).
 - **Eventos:** agenda com nome, data, horário, local e link (se houver). Próximos primeiro; os passados vão para "Anteriores" (`<details>`), na geração do site e também no navegador, por data.
 - **Materiais, Vídeos, Palestras:** cartões com miniatura, data, título, resumo e links. Mostrar os 6 mais recentes e um botão "ver todos" que expande (sem JavaScript: elemento `<details>`).
+- **Páginas de material:** conteúdos longos ganham página própria em `/materiais/<slug>/` e `/en/resources/<slug>/`, com layout `material` e conteúdo em `_data/paginas/<nome>.yml` (blocos md, video, modelo e arquivo, sempre pt e en). O cartão em Materiais aponta para ela.
 - **Vídeos:** tocam no próprio cartão após o clique (campo `youtube`); playlists usam `playlist: true`.
 - **Publicações:** lista em texto, mais recentes primeiro, gerada de `publications.yml`. Cada artigo liga ao DOI e mostra citações (OpenAlex, com data) e a classificação do periódico (`journals.yml`). DOI e citações são atualizados por `_tools/publicacoes.py`. Depois das 5 mais recentes, "Mais citadas" traz 5 produções de qualquer tipo (`most_cited.yml`, Google Scholar, com data). Mostrar as 5 mais recentes e link para Google Scholar, ORCID e Lattes.
 - **Contato:** canal do YouTube em destaque e links: Lattes, ORCID, Google Scholar, YouTube, Instagram, LinkedIn, Substack.
@@ -101,6 +102,7 @@ _data/
   events.yml        # agenda e histórico (pt/en)
   journals.yml      # classificação dos periódicos (Qualis, SJR, ABS)
   most_cited.yml    # produções mais citadas, todos os tipos
+  paginas/          # páginas de material (pt/en)
   publications.yml  # publicações (título no idioma original)
 _includes/          # uma include por seção + head, header, footer, card
 _layouts/home.html

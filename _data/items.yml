@@ -1,9 +1,9 @@
 # Itens com data ou links em TODO não aparecem no site.
 - id: guia-portaria-3004
-  date: TODO
+  date: 2026-11-24
   type: material
   title:
-    pt: "Portaria CNPq 3.004/2026: guia prático e modelo de declaração"
+    pt: "Portaria CNPq 3.004/2026: guia prático e modelo de declaração de uso de IA"
     en: "CNPq Ordinance No. 3,004/2026: practical guide and AI-use statement template"
   summary:
     pt: "Guia prático sobre a Portaria CNPq nº 3.004/2026, com um modelo de declaração de uso de IA na pesquisa."
@@ -12,11 +12,12 @@
     pt: "Este material não substitui a orientação oficial do CNPq."
     en: "This resource does not replace official CNPq guidance."
   links:
-    - label: { pt: "Abrir o guia", en: "Open the guide" }
-      url: TODO
+    - label: { pt: "Ler o guia", en: "Read the guide" }
+      url: /materiais/portaria-cnpq-3004/
+      url_en: /en/resources/cnpq-ordinance-3004/
     - label: { pt: "Fonte oficial", en: "Official source" }
       url: "https://www.in.gov.br/web/dou/-/portaria-cnpq-n-3.004-de-16-de-novembro-de-2026-745254401"
-  content_language: pt
+  content_language: both
 - id: caderno-uso-ia
   date: 2026-11-24
   type: material
