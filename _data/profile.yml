@@ -52,7 +52,7 @@ featured_video:      # vídeo em destaque no Contato
   youtube_id: TODO
   title: { pt: TODO, en: TODO }
 links:
-  - { id: lattes, label: "Lattes", url: TODO }   # http://lattes.cnpq.br/9466882455242939 (404 em 24/11/2026; religar quando voltar)
+  - { id: lattes, label: "Lattes", url: "https://lattes.cnpq.br/9466882455242939" }
   - { id: orcid, label: "ORCID", url: "https://orcid.org/0000-0003-3231-7515" }
   - { id: scholar, label: "Google Scholar", url: "https://scholar.google.com.br/citations?user=DpkPDqEAAAAJ" }
   - { id: youtube, label: "YouTube", url: TODO }
