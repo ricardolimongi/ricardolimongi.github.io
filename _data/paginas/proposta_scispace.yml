@@ -19,6 +19,11 @@ blocks:
       You have a research idea, but turning it into a solid proposal feels like climbing a mountain? You need to define the problem, find the gap in the literature, justify its relevance, choose the method and keep everything coherent for the committee or the funding call.
 
       This page gathers the materials from the workshop "Da ideia ao projeto aprovado: escreva sua proposta de pesquisa passo a passo com o Agente SciSpace" (From idea to approved project: write your research proposal step by step with the SciSpace Agent), held in Portuguese. There are six steps, with prompts ready to copy. In each one, the agent supports the work and the decision is yours.
+  - type: video
+    youtube: "l74OD-cmGjo"
+    thumb: "https://i.ytimg.com/vi/l74OD-cmGjo/maxresdefault.jpg"
+    pt: "Gravação do workshop: da ideia ao projeto de pesquisa com o Agente SciSpace"
+    en: "Workshop recording: from idea to research project with the SciSpace Agent (in Portuguese)"
   - type: arquivo
     url: "/assets/files/caderno-prompts-scispace.docx"
     pt: "Baixar o caderno de prompts (.docx)"
