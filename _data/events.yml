@@ -3,6 +3,7 @@
 # place (pt/en, opcional), url (opcional), material (página de material, pt/en, opcional),
 # type (opcional: palestra, mesa-redonda, painel, apresentacao-artigo, workshop, minicurso; vira um selo),
 # paper (só em apresentacao-artigo: title no idioma original, authors, url opcional do artigo publicado).
+# name_lang (opcional: en quando o nome oficial é em inglês).
 # Sem data definida o evento não aparece.
 - id: scispace-proposta-de-pesquisa
   name:
@@ -44,3 +45,11 @@
   time: { pt: "14h às 16h", en: "2 pm to 4 pm" }
   place: { pt: "Centro de Eventos do Ceará, Fortaleza (CE)", en: "Centro de Eventos do Ceará, Fortaleza, Brazil" }
   url: "https://www.even3.com.br/enedif2026/"
+- id: aib-lac-2027-whose-reasoning
+  name:
+    pt: "AIB-LAC 2027: Whose Reasoning Is It? Preserving Student Ownership of Thinking in an AI-Saturated Classroom: A Latin American and Caribbean Perspective"
+    en: "AIB-LAC 2027: Whose Reasoning Is It? Preserving Student Ownership of Thinking in an AI-Saturated Classroom: A Latin American and Caribbean Perspective"
+  name_lang: en
+  type: painel
+  date: 2027-03-05
+  time: { pt: "8h", en: "8 am" }

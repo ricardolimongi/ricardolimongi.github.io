@@ -3,7 +3,7 @@
   <time datetime="{{ e.date | date: '%Y-%m-%d' }}">{% include data.html d=e.date %}{% if e.end_date %} <span>{% if lang == "pt" %}a{% else %}to{% endif %}</span> {% include data.html d=e.end_date %}{% endif %}</time>
   <div>
     {%- if e.type and t.event_types[e.type] %}<span class="tipo">{{ t.event_types[e.type][lang] }}</span>{% endif %}
-    <h4{% if lang == "en" and e.name.en == e.name.pt %} lang="pt-BR"{% endif %}>{{ e.name[lang] }}</h4>
+    <h4{% if e.name_lang %}{% if e.name_lang != lang %} lang="{{ e.name_lang }}"{% endif %}{% elsif lang == "en" and e.name.en == e.name.pt %} lang="pt-BR"{% endif %}>{{ e.name[lang] }}</h4>
     {%- if e.paper.title %}{% unless e.paper.title contains "TODO" %}<p class="trabalho">{{ t.event_paper[lang] }}: {% if e.paper.url %}<a href="{{ e.paper.url }}">{% endif %}<cite>{{ e.paper.title }}</cite>{% if e.paper.url %}</a>{% endif %}{% if e.paper.authors %}{% unless e.paper.authors contains "TODO" %} ({{ t.event_with[lang] }} {{ e.paper.authors }}){% endunless %}{% endif %}</p>{% endunless %}{% endif %}
     {%- capture info %}{% if e.time[lang] %}{% unless e.time[lang] contains "TODO" %}<span>{{ e.time[lang] }}{% if e.timezone[lang] %} ({{ e.timezone[lang] }}){% endif %}</span>{% endunless %}{% endif %}{% if e.place[lang] %}{% unless e.place[lang] contains "TODO" %}<span>{{ e.place[lang] }}</span>{% endunless %}{% endif %}{% endcapture %}
     {%- if info != "" %}<p>{{ info }}</p>{% endif %}
