@@ -53,3 +53,6 @@
   type: painel
   date: 2027-03-05
   time: { pt: "8h", en: "8 am" }
+  timezone: { pt: "horário de San Juan, UTC-4; 9h em Brasília", en: "San Juan time, UTC-4; 9 am in Brasília" }
+  place: { pt: "San Juan, Porto Rico", en: "San Juan, Puerto Rico" }
+  url: "https://lac.aib.world/aib-lac-2027-san-juan/"
