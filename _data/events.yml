@@ -29,6 +29,7 @@
   name:
     pt: "Evolução da Ciência e Inteligência Artificial: Desafios e Limites"
     en: "Evolução da Ciência e Inteligência Artificial: Desafios e Limites"
+  type: palestra
   date: 2026-12-02
   time: { pt: "11h", en: "11 am" }
   timezone: { pt: "horário de Brasília; 14h em Portugal", en: "Brasília time, UTC-3; 2 pm in Portugal" }
