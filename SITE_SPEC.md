@@ -62,7 +62,7 @@ Ordem e conteúdo. Uma seção só aparece se tiver itens no arquivo de dados co
 - **Sobre:** bio curta (até 130 palavras), uma fileira de três números, cargos editoriais e institucionais, até cinco destaques (prêmios) com ano, uma linha de experiência internacional e link para o Lattes.
 - **Pesquisa:** 3 a 4 linhas, cada uma com título e 2 a 3 frases.
 - **HI-Lab:** descrição curta e link para hilab.face.ufg.br. Membros são opcionais (o site institucional é o lugar deles).
-- **Eventos:** agenda com nome, data, horário, local e link (se houver). Próximos primeiro; os passados vão para "Anteriores" (`<details>`), na geração do site e também no navegador, por data.
+- **Eventos:** agenda com nome, data, horário, local e link (se houver). Cada evento pode ter um tipo (palestra, mesa-redonda, painel, apresentação de artigo, workshop, minicurso), mostrado como selo acima do nome; apresentação de artigo mostra também o título do trabalho, os coautores e, quando publicado, o link do artigo. Próximos primeiro; os passados vão para "Anteriores" (`<details>`), na geração do site e também no navegador, por data.
 - **Materiais, Vídeos, Palestras:** cartões com miniatura, data, título, resumo e links. Mostrar os 6 mais recentes e um botão "ver todos" que expande (sem JavaScript: elemento `<details>`).
 - **Lista completa:** `/publicacoes/` e `/en/publications/` reúnem artigos (`publications.yml`) e demais produções (`productions.yml`), por tipo, no formato de "Mais recentes".
 - **Páginas de material:** conteúdos longos ganham página própria em `/materiais/<slug>/` e `/en/resources/<slug>/`, com layout `material` e conteúdo em `_data/paginas/<nome>.yml` (blocos md, video, modelo e arquivo, sempre pt e en). O cartão em Materiais aponta para ela.

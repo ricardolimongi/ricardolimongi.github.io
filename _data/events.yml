@@ -1,10 +1,14 @@
 # Agenda e histórico. Datas passadas vão sozinhas para o histórico.
 # Campos: id, name (pt/en), date, end_date (opcional), time (pt/en, opcional), timezone (opcional, pt/en),
-# place (pt/en, opcional), url (opcional), material (página de material, pt/en, opcional). Sem data definida o evento não aparece.
+# place (pt/en, opcional), url (opcional), material (página de material, pt/en, opcional),
+# type (opcional: palestra, mesa-redonda, painel, apresentacao-artigo, workshop, minicurso; vira um selo),
+# paper (só em apresentacao-artigo: title no idioma original, authors, url opcional do artigo publicado).
+# Sem data definida o evento não aparece.
 - id: scispace-proposta-de-pesquisa
   name:
     pt: "Da ideia ao projeto aprovado: escreva sua proposta de pesquisa passo a passo com o Agente SciSpace"
     en: "Da ideia ao projeto aprovado: escreva sua proposta de pesquisa passo a passo com o Agente SciSpace"
+  type: workshop
   date: 2026-11-25
   time: { pt: "18h30", en: "6:30 pm" }
   timezone: { pt: "horário de Brasília", en: "Brasília time, UTC-3" }
@@ -15,6 +19,7 @@
   name:
     pt: "Workshop Pesquisa Científica e o Uso da Inteligência Artificial"
     en: "Workshop Pesquisa Científica e o Uso da Inteligência Artificial"
+  type: workshop
   date: 2026-11-27
   time: { pt: "13h30 às 17h30", en: "1:30 pm to 5:30 pm" }
   timezone: { pt: "horário local", en: "local time" }
@@ -31,8 +36,9 @@
   url: "https://eventos.bad.pt/evento/reflexoes-a-sul-4a-sessao/"
 - id: enedif-2026-ia-etica-editoras-publicas
   name:
-    pt: "X Encontro Nacional dos Editores da Rede Federal (ENEDIF). Mesa-redonda: Inteligência Artificial, Ética e Editoras Públicas: desafios e práticas para o acesso democrático ao conhecimento"
-    en: "X Encontro Nacional dos Editores da Rede Federal (ENEDIF). Round table: Inteligência Artificial, Ética e Editoras Públicas: desafios e práticas para o acesso democrático ao conhecimento"
+    pt: "X Encontro Nacional dos Editores da Rede Federal (ENEDIF): Inteligência Artificial, Ética e Editoras Públicas: desafios e práticas para o acesso democrático ao conhecimento"
+    en: "X Encontro Nacional dos Editores da Rede Federal (ENEDIF): Inteligência Artificial, Ética e Editoras Públicas: desafios e práticas para o acesso democrático ao conhecimento"
+  type: mesa-redonda
   date: 2026-12-09
   time: { pt: "14h às 16h", en: "2 pm to 4 pm" }
   place: { pt: "Centro de Eventos do Ceará, Fortaleza (CE)", en: "Centro de Eventos do Ceará, Fortaleza, Brazil" }

@@ -50,6 +50,15 @@ playlist: { pt: "Playlist", en: "Playlist" }
 play: { pt: "Assistir ao vídeo", en: "Play video" }
 copy: { pt: "Copiar modelo", en: "Copy template" }
 event_material: { pt: "Materiais do evento", en: "Event materials" }
+event_types:
+  palestra: { pt: "Palestra", en: "Talk" }
+  mesa-redonda: { pt: "Mesa-redonda", en: "Round table" }
+  painel: { pt: "Painel", en: "Panel" }
+  apresentacao-artigo: { pt: "Apresentação de artigo", en: "Paper presentation" }
+  workshop: { pt: "Workshop", en: "Workshop" }
+  minicurso: { pt: "Minicurso", en: "Short course" }
+event_paper: { pt: "Trabalho", en: "Paper" }
+event_with: { pt: "com", en: "with" }
 copied: { pt: "Copiado", en: "Copied" }
 back: { pt: "Voltar aos materiais", en: "Back to resources" }
 privacy: { pt: "Estatísticas de acesso com GoatCounter, sem cookies.", en: "Visit statistics by GoatCounter, without cookies." }
